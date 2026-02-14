@@ -327,11 +327,34 @@
         </div>
       `;
 
+            // Set initial max-height for animation
+            const itemsEl = group.querySelector(".section-items");
+            requestAnimationFrame(() => {
+                itemsEl.style.maxHeight = itemsEl.scrollHeight + "px";
+            });
+
             // Toggle collapse
             group.querySelector(".section-group-header").addEventListener("click", () => {
-                group.classList.toggle("open");
-                const items = group.querySelector(".section-items");
-                items.style.display = group.classList.contains("open") ? "" : "none";
+                const isOpen = group.classList.contains("open");
+                if (isOpen) {
+                    // Collapse: set explicit maxHeight first, then animate to 0
+                    itemsEl.style.maxHeight = itemsEl.scrollHeight + "px";
+                    requestAnimationFrame(() => {
+                        itemsEl.style.maxHeight = "0";
+                    });
+                    group.classList.remove("open");
+                } else {
+                    // Expand
+                    group.classList.add("open");
+                    itemsEl.style.maxHeight = itemsEl.scrollHeight + "px";
+                    // After transition, allow auto height for dynamic content
+                    itemsEl.addEventListener("transitionend", function handler() {
+                        if (group.classList.contains("open")) {
+                            itemsEl.style.maxHeight = "none";
+                        }
+                        itemsEl.removeEventListener("transitionend", handler);
+                    });
+                }
             });
 
             sectionsEl.appendChild(group);
@@ -413,7 +436,9 @@
             Multimodal: "var(--hue-multimodal)", Systems: "var(--hue-systems)",
             Safety: "var(--hue-safety)", Evaluation: "var(--hue-evaluation)",
             Product: "var(--hue-product)", OpenSource: "var(--hue-opensource)",
-            Policy: "var(--hue-policy)", Other: "var(--hue-other)",
+            Policy: "var(--hue-policy)", Industry: "var(--hue-industry)",
+            Research: "var(--hue-research)", Hardware: "var(--hue-hardware)",
+            Other: "var(--hue-other)",
         };
         const hue = hueMap[section] || "var(--hue-other)";
         return `background:hsl(${hue},60%,50%,0.15);color:hsl(${hue},70%,65%);`;
@@ -423,7 +448,9 @@
         const icons = {
             Models: "🧠", Agents: "🤖", Multimodal: "🎨",
             Systems: "⚙️", Safety: "🛡️", Evaluation: "📊",
-            Product: "🚀", OpenSource: "🌐", Policy: "📜", Other: "📌",
+            Product: "🚀", OpenSource: "🌐", Policy: "📜",
+            Industry: "💼", Research: "🔬", Hardware: "🖥️",
+            Other: "📌",
         };
         return icons[name] || "📌";
     }
