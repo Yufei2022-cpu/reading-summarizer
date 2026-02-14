@@ -1,0 +1,687 @@
+{
+    "schema_version": "v1",
+    "generated_at": "2026-02-14",
+    "stats": {
+        "items_in": 25,
+        "items_kept": 10,
+        "top_stories_count": 10,
+        "duplicates_count": 2
+    },
+    "top_stories": [
+        {
+            "id": "openai-o3-mini-release",
+            "title": "OpenAI Releases o3-mini: Smaller, Faster Reasoning Model",
+            "subtitle": "o3-mini 正式发布，推理速度提升 3x",
+            "url": "https://openai.com/blog/o3-mini",
+            "source": "OpenAI",
+            "date": "2026-02-12",
+            "section": "Models",
+            "one_liner": "o3-mini 发布，推理提速 3 倍成本降 60%",
+            "bullets": [
+                "推理吞吐量提升 3 倍",
+                "API 价格降低 60%",
+                "MMLU 得分持平 o3",
+                "支持 128K context window"
+            ],
+            "why_it_matters": "中小团队终于能以合理成本在生产环境部署推理模型，将推动 Agentic 应用大规模落地。",
+            "action_items": [
+                "在现有评测集上对比 o3 vs o3-mini",
+                "评估替换现有推理管线的成本节省"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "reasoning",
+                "openai",
+                "cost-reduction",
+                "o3"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "anthropic-claude-tool-use-v2",
+            "title": "Anthropic Introduces Enhanced Tool Use for Claude 3.5",
+            "subtitle": "Claude 工具调用能力大幅升级",
+            "url": "https://anthropic.com/blog/tool-use-v2",
+            "source": "Anthropic",
+            "date": "2026-02-11",
+            "section": "Agents",
+            "one_liner": "Claude 工具调用准确率提升至 95%",
+            "bullets": [
+                "工具调用成功率从 82% 升至 95%",
+                "支持并行工具执行",
+                "新增 tool_choice 精细控制",
+                "兼容 OpenAI function calling 格式"
+            ],
+            "why_it_matters": "Agent 框架最核心的瓶颈之一是工具调用的可靠性，这次提升将显著降低 Agent 失败率。",
+            "action_items": [
+                "试用新版 tool_use API 并对比旧版",
+                "评估是否可替换 OpenAI function calling"
+            ],
+            "read_time_min": 8,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "agents",
+                "anthropic",
+                "tool-use",
+                "claude"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "google-gemini-2-flash",
+            "title": "Google DeepMind Launches Gemini 2.0 Flash with Native Image Generation",
+            "subtitle": "Gemini Flash 原生支持图像生成与编辑",
+            "url": "https://deepmind.google/gemini-2-flash",
+            "source": "Google DeepMind",
+            "date": "2026-02-10",
+            "section": "Multimodal",
+            "one_liner": "Gemini Flash 融合文本与图像生成",
+            "bullets": [
+                "单模型同时输出文本与图像",
+                "图像编辑支持自然语言指令",
+                "延迟仅 250ms（文本）",
+                "支持 Audio 和 Video 输入"
+            ],
+            "why_it_matters": "多模态原生生成是下一代 AI 产品的关键能力，Flash 的低延迟使交互式应用成为可能。",
+            "action_items": [
+                "测试图像生成质量 vs DALL-E 3",
+                "探索 text+image 混合输出的产品场景"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "multimodal",
+                "google",
+                "gemini",
+                "image-generation"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "meta-llama-4-scout",
+            "title": "Meta Releases Llama 4 Scout: 10M Context Window Open Source Model",
+            "subtitle": "Llama 4 Scout 开源发布，支持 10M 上下文",
+            "url": "https://ai.meta.com/blog/llama-4-scout",
+            "source": "Meta",
+            "date": "2026-02-09",
+            "section": "OpenSource",
+            "one_liner": "Llama 4 Scout 开源，10M 上下文",
+            "bullets": [
+                "上下文窗口达 10M tokens",
+                "MoE 架构，109B 活跃参数",
+                "Apache 2.0 许可证",
+                "多语言支持 12 种语言"
+            ],
+            "why_it_matters": "超长上下文开源模型将改变 RAG 架构的设计——很多场景可直接塞入全文，不再需要分块检索。",
+            "action_items": [
+                "在 RULER 长文本基准上评测",
+                "对比 RAG vs 全文塞入的效果差异"
+            ],
+            "read_time_min": 10,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "open-source",
+                "meta",
+                "llama",
+                "long-context"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "nvidia-nemotron-distillation",
+            "title": "NVIDIA Nemotron: Distilling Large Models into Efficient Deployments",
+            "subtitle": "Nemotron 蒸馏框架大幅降低部署成本",
+            "url": "https://developer.nvidia.com/nemotron-distillation",
+            "source": "NVIDIA",
+            "date": "2026-02-10",
+            "section": "Systems",
+            "one_liner": "Nemotron 蒸馏让小模型逼近大模型",
+            "bullets": [
+                "8B 模型达到 70B 模型 92% 性能",
+                "推理成本降低 8 倍",
+                "支持 TensorRT-LLM 部署",
+                "开源蒸馏数据集和训练流程"
+            ],
+            "why_it_matters": "模型蒸馏是 2026 年最重要的效率趋势，NVIDIA 提供了端到端工具链使其工程可落地。",
+            "action_items": [
+                "试用 Nemotron 蒸馏框架",
+                "评估蒸馏后模型在自己任务上的表现"
+            ],
+            "read_time_min": 12,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "distillation",
+                "nvidia",
+                "efficiency",
+                "deployment"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "deepseek-r2-safety-alignment",
+            "title": "DeepSeek R2: Constitutional AI Alignment for Open Models",
+            "subtitle": "DeepSeek R2 开源对齐方案",
+            "url": "https://arxiv.org/abs/2602.12345",
+            "source": "arXiv",
+            "date": "2026-02-08",
+            "section": "Safety",
+            "one_liner": "DeepSeek R2 提出开源对齐新范式",
+            "bullets": [
+                "Constitutional AI 开源实现",
+                "对齐成本降低 90%",
+                "Harmfulness 指标下降 73%",
+                "兼容 RLHF 和 DPO 训练"
+            ],
+            "why_it_matters": "开源对齐方案使安全不再是闭源大厂的专属，中小团队也能构建负责任的 AI 系统。",
+            "action_items": [
+                "阅读论文并评估适用性",
+                "在现有模型上复现对齐实验"
+            ],
+            "read_time_min": 15,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "safety",
+                "alignment",
+                "deepseek",
+                "open-source"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "huggingface-lighteval-v2",
+            "title": "Hugging Face Releases LightEval v2: Unified Evaluation Framework",
+            "subtitle": "LightEval v2 统一评测框架发布",
+            "url": "https://huggingface.co/blog/lighteval-v2",
+            "source": "Hugging Face",
+            "date": "2026-02-11",
+            "section": "Evaluation",
+            "one_liner": "LightEval v2 统一 40+ 评测基准",
+            "bullets": [
+                "集成 40+ 主流评测基准",
+                "支持多模态评测",
+                "单命令运行全套 benchmark",
+                "结果自动上传 HF Hub"
+            ],
+            "why_it_matters": "评测碎片化一直是行业痛点，统一框架让模型选型更科学、对比更公平。",
+            "action_items": [
+                "把 LightEval v2 加入 CI/CD",
+                "用它横向对比候选模型"
+            ],
+            "read_time_min": 7,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "evaluation",
+                "huggingface",
+                "benchmark",
+                "open-source"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "cursor-agent-mode-launch",
+            "title": "Cursor Launches Agent Mode: End-to-End Coding Automation",
+            "subtitle": "Cursor 推出全自动 Agent 编程模式",
+            "url": "https://cursor.com/blog/agent-mode",
+            "source": "Cursor",
+            "date": "2026-02-12",
+            "section": "Product",
+            "one_liner": "Cursor Agent 模式实现端到端编码",
+            "bullets": [
+                "Agent 可自动执行终端命令",
+                "支持多文件编辑和重构",
+                "内置代码审查和测试生成",
+                "实测效率提升 2-5 倍"
+            ],
+            "why_it_matters": "AI 编码工具从辅助走向自主，开发者工作流将被根本改变。",
+            "action_items": [
+                "试用 Agent Mode 处理日常重构",
+                "与 GitHub Copilot Agent 对比体验"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 5
+            },
+            "tags": [
+                "product",
+                "cursor",
+                "coding-agent",
+                "developer-tools"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "mistral-medium-3-release",
+            "title": "Mistral Releases Medium 3: Europe's Answer to GPT-4o",
+            "subtitle": "Mistral Medium 3 对标 GPT-4o 发布",
+            "url": "https://mistral.ai/news/medium-3",
+            "source": "Mistral",
+            "date": "2026-02-13",
+            "section": "Models",
+            "one_liner": "Mistral Medium 3 对标 GPT-4o",
+            "bullets": [
+                "多项 benchmark 持平 GPT-4o",
+                "欧盟数据主权合规",
+                "支持 32K 上下文",
+                "API 价格为 GPT-4o 的 40%"
+            ],
+            "why_it_matters": "欧洲 AI 主权需求催生本地替代方案，Mistral Medium 3 是最有竞争力的选项。",
+            "action_items": [
+                "在关键任务上对比 Mistral vs GPT-4o",
+                "评估 EU 部署场景的合规优势"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "models",
+                "mistral",
+                "europe",
+                "gpt-4o-competitor"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "eu-ai-act-enforcement-begins",
+            "title": "EU AI Act Enforcement Begins: What Companies Need to Know",
+            "subtitle": "欧盟 AI 法案正式执行",
+            "url": "https://ec.europa.eu/ai-act-enforcement-2026",
+            "source": "European Commission",
+            "date": "2026-02-13",
+            "section": "Policy",
+            "one_liner": "EU AI Act 执行启动，合规期限临近",
+            "bullets": [
+                "高风险 AI 系统需注册备案",
+                "违规罚款最高年营收 7%",
+                "通用 AI 模型需报告训练数据",
+                "6 个月过渡期自本月开始"
+            ],
+            "why_it_matters": "AI 监管进入实质执行阶段，所有在欧盟运营的 AI 公司必须立即开始合规准备。",
+            "action_items": [
+                "审查产品是否属于高风险类别",
+                "准备训练数据透明度报告"
+            ],
+            "read_time_min": 10,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "policy",
+                "eu-ai-act",
+                "regulation",
+                "compliance"
+            ],
+            "notes": ""
+        }
+    ],
+    "sections": [
+        {
+            "name": "Models",
+            "items": [
+                {
+                    "ref_id": "openai-o3-mini-release",
+                    "title": "OpenAI Releases o3-mini",
+                    "url": "https://openai.com/blog/o3-mini",
+                    "source": "OpenAI",
+                    "date": "2026-02-12",
+                    "one_liner": "o3-mini 发布，推理提速 3 倍成本降 60%",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "reasoning",
+                        "openai"
+                    ]
+                },
+                {
+                    "ref_id": "mistral-medium-3-release",
+                    "title": "Mistral Releases Medium 3",
+                    "url": "https://mistral.ai/news/medium-3",
+                    "source": "Mistral",
+                    "date": "2026-02-13",
+                    "one_liner": "Mistral Medium 3 对标 GPT-4o",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "models",
+                        "mistral"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Agents",
+            "items": [
+                {
+                    "ref_id": "anthropic-claude-tool-use-v2",
+                    "title": "Anthropic Enhanced Tool Use",
+                    "url": "https://anthropic.com/blog/tool-use-v2",
+                    "source": "Anthropic",
+                    "date": "2026-02-11",
+                    "one_liner": "Claude 工具调用准确率提升至 95%",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "agents",
+                        "anthropic"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Multimodal",
+            "items": [
+                {
+                    "ref_id": "google-gemini-2-flash",
+                    "title": "Gemini 2.0 Flash",
+                    "url": "https://deepmind.google/gemini-2-flash",
+                    "source": "Google DeepMind",
+                    "date": "2026-02-10",
+                    "one_liner": "Gemini Flash 融合文本与图像生成",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "multimodal",
+                        "google"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Systems",
+            "items": [
+                {
+                    "ref_id": "nvidia-nemotron-distillation",
+                    "title": "NVIDIA Nemotron Distillation",
+                    "url": "https://developer.nvidia.com/nemotron-distillation",
+                    "source": "NVIDIA",
+                    "date": "2026-02-10",
+                    "one_liner": "Nemotron 蒸馏让小模型逼近大模型",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "distillation",
+                        "nvidia"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Safety",
+            "items": [
+                {
+                    "ref_id": "deepseek-r2-safety-alignment",
+                    "title": "DeepSeek R2 Alignment",
+                    "url": "https://arxiv.org/abs/2602.12345",
+                    "source": "arXiv",
+                    "date": "2026-02-08",
+                    "one_liner": "DeepSeek R2 提出开源对齐新范式",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "safety",
+                        "alignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Evaluation",
+            "items": [
+                {
+                    "ref_id": "huggingface-lighteval-v2",
+                    "title": "LightEval v2",
+                    "url": "https://huggingface.co/blog/lighteval-v2",
+                    "source": "Hugging Face",
+                    "date": "2026-02-11",
+                    "one_liner": "LightEval v2 统一 40+ 评测基准",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "evaluation",
+                        "huggingface"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Product",
+            "items": [
+                {
+                    "ref_id": "cursor-agent-mode-launch",
+                    "title": "Cursor Agent Mode",
+                    "url": "https://cursor.com/blog/agent-mode",
+                    "source": "Cursor",
+                    "date": "2026-02-12",
+                    "one_liner": "Cursor Agent 模式实现端到端编码",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "product",
+                        "cursor"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OpenSource",
+            "items": [
+                {
+                    "ref_id": "meta-llama-4-scout",
+                    "title": "Llama 4 Scout",
+                    "url": "https://ai.meta.com/blog/llama-4-scout",
+                    "source": "Meta",
+                    "date": "2026-02-09",
+                    "one_liner": "Llama 4 Scout 开源，10M 上下文",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "open-source",
+                        "meta"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Policy",
+            "items": [
+                {
+                    "ref_id": "eu-ai-act-enforcement-begins",
+                    "title": "EU AI Act Enforcement",
+                    "url": "https://ec.europa.eu/ai-act-enforcement-2026",
+                    "source": "European Commission",
+                    "date": "2026-02-13",
+                    "one_liner": "EU AI Act 执行启动，合规期限临近",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "policy",
+                        "eu-ai-act"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tag_index": {
+        "reasoning": [
+            "openai-o3-mini-release"
+        ],
+        "openai": [
+            "openai-o3-mini-release"
+        ],
+        "agents": [
+            "anthropic-claude-tool-use-v2"
+        ],
+        "anthropic": [
+            "anthropic-claude-tool-use-v2"
+        ],
+        "multimodal": [
+            "google-gemini-2-flash"
+        ],
+        "google": [
+            "google-gemini-2-flash"
+        ],
+        "open-source": [
+            "meta-llama-4-scout",
+            "deepseek-r2-safety-alignment",
+            "huggingface-lighteval-v2"
+        ],
+        "meta": [
+            "meta-llama-4-scout"
+        ],
+        "distillation": [
+            "nvidia-nemotron-distillation"
+        ],
+        "nvidia": [
+            "nvidia-nemotron-distillation"
+        ],
+        "safety": [
+            "deepseek-r2-safety-alignment"
+        ],
+        "evaluation": [
+            "huggingface-lighteval-v2"
+        ],
+        "product": [
+            "cursor-agent-mode-launch"
+        ],
+        "models": [
+            "mistral-medium-3-release"
+        ],
+        "policy": [
+            "eu-ai-act-enforcement-begins"
+        ],
+        "cost-reduction": [
+            "openai-o3-mini-release"
+        ]
+    },
+    "search_summaries": [
+        {
+            "query_hint": "o3",
+            "matching_tags": [
+                "reasoning",
+                "openai",
+                "o3"
+            ],
+            "top_refs": [
+                "openai-o3-mini-release"
+            ],
+            "one_sentence_map": "OpenAI o3-mini 发布相关，推理提速降本"
+        },
+        {
+            "query_hint": "agent",
+            "matching_tags": [
+                "agents",
+                "tool-use",
+                "coding-agent"
+            ],
+            "top_refs": [
+                "anthropic-claude-tool-use-v2",
+                "cursor-agent-mode-launch"
+            ],
+            "one_sentence_map": "Agent 相关进展：Claude 工具调用升级 + Cursor Agent Mode"
+        },
+        {
+            "query_hint": "开源 open source",
+            "matching_tags": [
+                "open-source",
+                "llama",
+                "deepseek"
+            ],
+            "top_refs": [
+                "meta-llama-4-scout",
+                "deepseek-r2-safety-alignment",
+                "huggingface-lighteval-v2"
+            ],
+            "one_sentence_map": "开源生态：Llama 4 Scout（10M 上下文）、DeepSeek R2 对齐、LightEval v2 评测"
+        },
+        {
+            "query_hint": "distillation 蒸馏",
+            "matching_tags": [
+                "distillation",
+                "efficiency"
+            ],
+            "top_refs": [
+                "nvidia-nemotron-distillation"
+            ],
+            "one_sentence_map": "NVIDIA Nemotron 蒸馏框架，8B 模型达 70B 的 92% 性能"
+        }
+    ],
+    "duplicates": [
+        {
+            "title": "o3-mini: OpenAI's New Compact Reasoning Model (TechCrunch)",
+            "url": "https://techcrunch.com/2026/02/12/o3-mini",
+            "merged_into": "openai-o3-mini-release",
+            "reason": "二手解读，信息量少于官方博客"
+        },
+        {
+            "title": "OpenAI 发布 o3-mini（机器之心）",
+            "url": "https://jiqizhixin.com/articles/o3-mini",
+            "merged_into": "openai-o3-mini-release",
+            "reason": "中文转载，无新增信息"
+        }
+    ]
+}

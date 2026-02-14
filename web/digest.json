@@ -1,0 +1,1033 @@
+{
+    "schema_version": "v1",
+    "generated_at": "2026-02-14",
+    "stats": {
+        "items_in": 32,
+        "items_kept": 14,
+        "top_stories_count": 14,
+        "duplicates_count": 3
+    },
+    "top_stories": [
+        {
+            "id": "openai-gpt53-codex-spark",
+            "title": "OpenAI Releases GPT-5.3-Codex-Spark: Ultra-Fast Coding Model on Cerebras Chips",
+            "subtitle": "GPT-5.3-Codex-Spark 发布，首次运行在 Cerebras 芯片上",
+            "url": "https://openai.com/index/gpt-5-3-codex-spark",
+            "source": "OpenAI",
+            "date": "2026-02-12",
+            "section": "Models",
+            "one_liner": "GPT-5.3-Codex-Spark：超快编码模型，首次脱离 NVIDIA",
+            "bullets": [
+                "专为实时编码优化的 research preview 模型",
+                "首个在 Cerebras Wafer-Scale Engine 3 上运行的 OpenAI 模型",
+                "标志着 OpenAI 硬件供应链多元化的开始",
+                "ChatGPT Pro 用户可直接使用"
+            ],
+            "why_it_matters": "OpenAI 首次在非 NVIDIA 硬件上部署模型，这是 AI 算力供应链多元化的里程碑。编码模型的实时推理能力将重塑开发者工作流。",
+            "action_items": [
+                "申请 ChatGPT Pro 试用 Codex-Spark 实时编码",
+                "关注 Cerebras 芯片对推理成本的影响"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "coding",
+                "gpt-5",
+                "cerebras",
+                "hardware"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-retires-legacy-models",
+            "title": "OpenAI Retires GPT-4o, GPT-4.1, o4-mini from ChatGPT",
+            "subtitle": "GPT-4o 等旧模型从 ChatGPT 正式下线",
+            "url": "https://openai.com/index/model-updates-feb-2026",
+            "source": "OpenAI",
+            "date": "2026-02-13",
+            "section": "Models",
+            "one_liner": "GPT-4o/4.1/o4-mini 从 ChatGPT 下线，GPT-5.2 成主力",
+            "bullets": [
+                "GPT-4o、GPT-4.1、GPT-4.1 mini、o4-mini 全部退役",
+                "GPT-5.2 已成为 ChatGPT 主流选择",
+                "API 访问暂时保留",
+                "用户需迁移至 GPT-5.x 系列"
+            ],
+            "why_it_matters": "大规模模型下线标志 GPT-5 时代正式到来，依赖旧模型 API 的应用需尽快适配。",
+            "action_items": [
+                "检查项目中是否有对 GPT-4o/4.1 的硬编码依赖",
+                "制定 API 迁移计划至 GPT-5.2"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "model-retirement",
+                "gpt-5",
+                "migration"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "anthropic-claude-opus-46",
+            "title": "Anthropic Launches Claude Opus 4.6: 1M Context + Agent Teams",
+            "subtitle": "Claude Opus 4.6 发布：百万 token 上下文 + 多 Agent 协作",
+            "url": "https://anthropic.com/news/claude-opus-4-6",
+            "source": "Anthropic",
+            "date": "2026-02-05",
+            "section": "Models",
+            "one_liner": "Claude Opus 4.6：百万 token 上下文 + Agent 协作",
+            "bullets": [
+                "1M token context window（beta）",
+                "Adaptive thinking 自适应推理",
+                "发现 500+ 开源代码高危安全漏洞",
+                "Agent teams 研究预览：多 Agent 并行分工"
+            ],
+            "why_it_matters": "百万 token 上下文 + 多 Agent 协作是 coding agent 的两大关键能力，Opus 4.6 首个同时具备两者。",
+            "action_items": [
+                "测试百万 token 上下文在大型代码库上的表现",
+                "关注 Agent Teams 功能的 GA 时间"
+            ],
+            "read_time_min": 8,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "anthropic",
+                "claude",
+                "long-context",
+                "agents",
+                "security"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "anthropic-30b-funding",
+            "title": "Anthropic Raises $30B Series G at $380B Valuation",
+            "subtitle": "Anthropic 融资 300 亿美元，估值 3800 亿",
+            "url": "https://anthropic.com/news/series-g",
+            "source": "Anthropic",
+            "date": "2026-02-12",
+            "section": "Industry",
+            "one_liner": "Anthropic 300 亿美元融资，AI 公司估值新高",
+            "bullets": [
+                "Series G 融资 300 亿美元",
+                "估值达 3800 亿美元",
+                "资金将用于大规模 Agent 基础设施",
+                "超越多数传统科技公司市值"
+            ],
+            "why_it_matters": "这是 AI 行业有史以来最大单笔融资，表明市场对 Agent 基础设施的极度看好，也预示竞争将进一步白热化。",
+            "action_items": [
+                "关注 Anthropic 后续产品路线图变化",
+                "评估 Claude 生态作为长期技术栈的稳定性"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "anthropic",
+                "funding",
+                "industry",
+                "valuation"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "google-gemini3-deep-think",
+            "title": "Google DeepMind Releases Gemini 3 Deep Think for Scientific Reasoning",
+            "subtitle": "Gemini 3 Deep Think 发布，HLE 无工具得分 48.4%",
+            "url": "https://deepmind.google/technologies/gemini-3-deep-think",
+            "source": "Google DeepMind",
+            "date": "2026-02-12",
+            "section": "Models",
+            "one_liner": "Gemini 3 Deep Think 攻克科学推理前沿",
+            "bullets": [
+                "Humanity's Last Exam 无工具得分 48.4%",
+                "专攻科学、研究和工程推理",
+                "IMO 和 ICPC 达金牌水平",
+                "支持数学发现与物理推导"
+            ],
+            "why_it_matters": "HLE 是目前最难的 AI 基准之一，48.4% 无工具得分代表 reasoning 能力的新高度，科研辅助场景将首先受益。",
+            "action_items": [
+                "在自己的领域问题上测试 Deep Think",
+                "与 GPT-5.2 在推理任务上做对比评测"
+            ],
+            "read_time_min": 7,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "google",
+                "gemini",
+                "reasoning",
+                "science",
+                "benchmark"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-frontier-platform",
+            "title": "OpenAI Launches 'Frontier' Platform: Enterprise AI Agent at Scale",
+            "subtitle": "OpenAI 发布 Frontier 企业 Agent 平台",
+            "url": "https://openai.com/index/frontier-platform",
+            "source": "OpenAI",
+            "date": "2026-02-11",
+            "section": "Agents",
+            "one_liner": "OpenAI Frontier：企业级 Agent 部署平台上线",
+            "bullets": [
+                "支持大规模构建、部署、管理 AI Agent",
+                "集成企业现有系统（ERP、CRM）",
+                "内置安全治理和审计功能",
+                "制造业案例：6 周工作缩短至 1 天"
+            ],
+            "why_it_matters": "OpenAI 首次推出面向企业的 Agent 管理平台，将 Agent 从实验室带入生产环境，是 Agent 商业化的标志事件。",
+            "action_items": [
+                "评估 Frontier 平台对现有 Agent 框架的替代可能",
+                "关注企业安全和合规功能的文档"
+            ],
+            "read_time_min": 8,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "agents",
+                "enterprise",
+                "platform",
+                "deployment"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "moonshot-kimi-k25",
+            "title": "Moonshot AI Releases Kimi K2.5: Trillion-Param Multimodal with Agent Swarm",
+            "subtitle": "Kimi K2.5：万亿参数多模态 + Agent Swarm",
+            "url": "https://kimi.moonshot.cn/blog/k2-5",
+            "source": "Moonshot AI",
+            "date": "2026-01-27",
+            "section": "Multimodal",
+            "one_liner": "Kimi K2.5：万亿参数多模态 + 100 子 Agent 编排",
+            "bullets": [
+                "万亿参数 MoE（320 亿活跃参数）",
+                "Agent Swarm 支持 100 个子 Agent 并行",
+                "SWE-Bench Verified 得分 80.9%",
+                "MMMU Pro 75%，文本+图像+视频原生处理"
+            ],
+            "why_it_matters": "中国 AI 公司首次在 Agent 编排和多模态上同时达到世界顶级水平，Agent Swarm 概念可能引领下一代 Agent 架构。",
+            "action_items": [
+                "测试 Kimi K2.5 API 的多模态和 Agent Swarm 能力",
+                "研究 MoE 架构在大规模 Agent 编排中的优势"
+            ],
+            "read_time_min": 10,
+            "scores": {
+                "importance": 5,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "moonshot",
+                "kimi",
+                "multimodal",
+                "agents",
+                "moe",
+                "chinese-ai"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "alibaba-qwen3-max-thinking",
+            "title": "Alibaba Releases Qwen3-Max-Thinking: Trillion-Param Reasoning Model",
+            "subtitle": "Qwen3-Max-Thinking 发布，万亿参数推理模型",
+            "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
+            "source": "Alibaba Cloud",
+            "date": "2026-02-03",
+            "section": "Models",
+            "one_liner": "Qwen3-Max-Thinking：万亿参数推理大模型",
+            "bullets": [
+                "超万亿参数，专攻数学和科学推理",
+                "Experience-Cumulative TTS 迭代式推理",
+                "PhD 级别科学题解题能力",
+                "开源社区可用的最强推理模型之一"
+            ],
+            "why_it_matters": "中国开源推理模型进入万亿参数时代，TTS 技术让模型在推理过程中不断迭代优化答案，这是 reasoning scaling 的新方向。",
+            "action_items": [
+                "在 HumanEval、MATH 上对比 Qwen3 vs GPT-5.2",
+                "关注 TTS 技术的论文和开源实现"
+            ],
+            "read_time_min": 9,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "alibaba",
+                "qwen",
+                "reasoning",
+                "open-source",
+                "trillion-param"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "february-model-rush",
+            "title": "February 2026 'Model Rush': Gemini 3, Sonnet 5, GPT-5.3, DeepSeek v4 Expected",
+            "subtitle": "2026 年 2 月 Model Rush：巨头集中发布新模型",
+            "url": "https://jangwook.net/2026/02/model-rush",
+            "source": "AI Analysis",
+            "date": "2026-02-10",
+            "section": "Industry",
+            "one_liner": "Model Rush：Gemini 3/Sonnet 5/GPT-5.3/DeepSeek v4 扎堆发布",
+            "bullets": [
+                "Google: Gemini 3 Pro GA 预计 2 月内发布",
+                "Anthropic: Sonnet 5 即将发布",
+                "OpenAI: GPT-5.3 系列持续迭代",
+                "中国公司: DeepSeek v4、GLM 5、Qwen 3.5 齐发"
+            ],
+            "why_it_matters": "CES 后首个发布窗口，中美 AI 公司同步密集发布，竞争烈度前所未有，选型决策需延后至 3 月全面评测后再做。",
+            "action_items": [
+                "建立 Model Rush 追踪看板",
+                "等全面 benchmark 出炉后再做技术选型"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 4,
+                "credibility": 3,
+                "freshness": 5
+            },
+            "tags": [
+                "industry",
+                "model-rush",
+                "competition",
+                "chinese-ai"
+            ],
+            "notes": "部分模型仍为预告，尚未正式发布"
+        },
+        {
+            "id": "nvidia-nemotron3-nano",
+            "title": "NVIDIA Releases Nemotron 3 Nano: 32B MoE with 1M Context",
+            "subtitle": "Nemotron 3 Nano 开源：32B MoE + 1M 上下文",
+            "url": "https://developer.nvidia.com/blog/nemotron-3-nano",
+            "source": "NVIDIA",
+            "date": "2026-02-07",
+            "section": "OpenSource",
+            "one_liner": "Nemotron 3 Nano：32B MoE + 百万 token 开源",
+            "bullets": [
+                "32B 总参数，3.6B 活跃参数（MoE）",
+                "1M token context window",
+                "开源 weights + 训练数据集",
+                "适合边缘部署和长文本推理"
+            ],
+            "why_it_matters": "3.6B 活跃参数 + 1M 上下文 = 可在消费级硬件上运行的长文本推理模型，RAG 场景的最佳开源选择之一。",
+            "action_items": [
+                "在 Ollama 上本地跑 Nemotron 3 Nano",
+                "测试 1M 上下文在长文档问答中的表现"
+            ],
+            "read_time_min": 7,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "nvidia",
+                "nemotron",
+                "open-source",
+                "moe",
+                "long-context"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-disbands-alignment-team",
+            "title": "OpenAI Disbands Mission Alignment Team",
+            "subtitle": "OpenAI 解散 Mission Alignment 团队",
+            "url": "https://platformer.news/openai-alignment-team-disbanded",
+            "source": "Platformer",
+            "date": "2026-02-11",
+            "section": "Safety",
+            "one_liner": "OpenAI 解散对齐团队，安全治理引发担忧",
+            "bullets": [
+                "Mission Alignment 团队被正式解散",
+                "继 Superalignment 之后的第二次安全团队变动",
+                "引发行业对 OpenAI 安全承诺的质疑",
+                "竞争压力或为主因"
+            ],
+            "why_it_matters": "AI 安全领域的标志性事件——行业领头羊在竞争压力下持续弱化安全投入，对整个行业的安全规范产生负面示范效应。",
+            "action_items": [
+                "关注 OpenAI 自身对此的官方回应",
+                "重新评估对 OpenAI 模型安全性的依赖度"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 5,
+                "credibility": 4,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "safety",
+                "alignment",
+                "governance"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-accuses-deepseek",
+            "title": "OpenAI Accuses DeepSeek of IP Theft via Distillation",
+            "subtitle": "OpenAI 指控 DeepSeek 蒸馏窃取知识产权",
+            "url": "https://www.latimes.com/business/story/2026-02-12/openai-deepseek-ip-theft",
+            "source": "LA Times",
+            "date": "2026-02-12",
+            "section": "Policy",
+            "one_liner": "OpenAI 指控 DeepSeek：用蒸馏技术窃取模型能力",
+            "bullets": [
+                "OpenAI 正式指控 DeepSeek 使用蒸馏技术",
+                "指 R1 模型训练数据中含 OpenAI 输出",
+                "引发 AI 知识产权保护的全球讨论",
+                "可能推动 AI 输出版权新立法"
+            ],
+            "why_it_matters": "模型蒸馏的合法性边界首次进入公共视野，这将深刻影响开源 vs 闭源模型的竞争格局和国际 AI 政策走向。",
+            "action_items": [
+                "追踪知识产权诉讼后续进展",
+                "审视团队是否有类似蒸馏实践的合规风险"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 5,
+                "credibility": 4,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "deepseek",
+                "ip-theft",
+                "distillation",
+                "policy"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "intl-ai-safety-report-2026",
+            "title": "International AI Safety Report 2026: Frontier AI Poses Workplace Hazards",
+            "subtitle": "国际 AI 安全报告 2026：前沿 AI 带来职场新风险",
+            "url": "https://www.thesafetymag.com/us/topics/ai-safety-report-2026",
+            "source": "Int'l AI Safety Report",
+            "date": "2026-02-10",
+            "section": "Safety",
+            "one_liner": "国际 AI 安全报告：自动化偏见 + 恶意使用是最大风险",
+            "bullets": [
+                "前沿 AI 系统引入全新职场危害",
+                "Automation bias 削弱人类批判性思维",
+                "恶意使用和系统性中断风险上升",
+                "呼吁建立行业级 AI 使用安全标准"
+            ],
+            "why_it_matters": "这是首份系统性评估 AI 对职场安全影响的国际报告，其建议可能直接推动各国立法，影响 AI 部署策略。",
+            "action_items": [
+                "下载报告全文并评估对自身团队的影响",
+                "建立 AI 辅助决策的 human-in-the-loop 机制"
+            ],
+            "read_time_min": 12,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "safety",
+                "report",
+                "regulation",
+                "workplace",
+                "automation-bias"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "gpt52-physics-discovery",
+            "title": "GPT-5.2 Derives New Result in Theoretical Physics",
+            "subtitle": "GPT-5.2 在理论物理领域推导出新结果",
+            "url": "https://openai.com/research/gpt-5-2-physics",
+            "source": "OpenAI",
+            "date": "2026-02-13",
+            "section": "Research",
+            "one_liner": "GPT-5.2 推导出理论物理新结果",
+            "bullets": [
+                "自主推导出此前未知的理论物理结果",
+                "经专家评审确认结论有效",
+                "展示 LLM 在科学发现中的潜力",
+                "引发 AI 辅助科研的伦理讨论"
+            ],
+            "why_it_matters": "LLM 从「回答问题」走向「发现知识」，如果可以持续复现，将根本改变科研范式和 AI 的角色定位。",
+            "action_items": [
+                "关注论文全文和同行评议结果",
+                "探索 LLM 在自己研究领域的发现潜力"
+            ],
+            "read_time_min": 8,
+            "scores": {
+                "importance": 5,
+                "credibility": 4,
+                "freshness": 5
+            },
+            "tags": [
+                "openai",
+                "gpt-5",
+                "physics",
+                "research",
+                "scientific-discovery"
+            ],
+            "notes": "需等待同行评议的最终确认"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Models",
+            "items": [
+                {
+                    "ref_id": "openai-gpt53-codex-spark",
+                    "title": "GPT-5.3-Codex-Spark",
+                    "url": "https://openai.com/index/gpt-5-3-codex-spark",
+                    "source": "OpenAI",
+                    "date": "2026-02-12",
+                    "one_liner": "GPT-5.3-Codex-Spark：超快编码模型，首次脱离 NVIDIA",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "coding"
+                    ]
+                },
+                {
+                    "ref_id": "anthropic-claude-opus-46",
+                    "title": "Claude Opus 4.6",
+                    "url": "https://anthropic.com/news/claude-opus-4-6",
+                    "source": "Anthropic",
+                    "date": "2026-02-05",
+                    "one_liner": "Claude Opus 4.6：百万 token 上下文 + Agent 协作",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "anthropic",
+                        "claude"
+                    ]
+                },
+                {
+                    "ref_id": "google-gemini3-deep-think",
+                    "title": "Gemini 3 Deep Think",
+                    "url": "https://deepmind.google/technologies/gemini-3-deep-think",
+                    "source": "Google DeepMind",
+                    "date": "2026-02-12",
+                    "one_liner": "Gemini 3 Deep Think 攻克科学推理前沿",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "google",
+                        "gemini"
+                    ]
+                },
+                {
+                    "ref_id": "alibaba-qwen3-max-thinking",
+                    "title": "Qwen3-Max-Thinking",
+                    "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
+                    "source": "Alibaba Cloud",
+                    "date": "2026-02-03",
+                    "one_liner": "Qwen3-Max-Thinking：万亿参数推理大模型",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "alibaba",
+                        "qwen"
+                    ]
+                },
+                {
+                    "ref_id": "openai-retires-legacy-models",
+                    "title": "OpenAI 下线旧模型",
+                    "url": "https://openai.com/index/model-updates-feb-2026",
+                    "source": "OpenAI",
+                    "date": "2026-02-13",
+                    "one_liner": "GPT-4o/4.1/o4-mini 从 ChatGPT 下线",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "migration"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Agents",
+            "items": [
+                {
+                    "ref_id": "openai-frontier-platform",
+                    "title": "OpenAI Frontier 企业 Agent 平台",
+                    "url": "https://openai.com/index/frontier-platform",
+                    "source": "OpenAI",
+                    "date": "2026-02-11",
+                    "one_liner": "OpenAI Frontier：企业级 Agent 部署平台上线",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "agents"
+                    ]
+                },
+                {
+                    "ref_id": "moonshot-kimi-k25",
+                    "title": "Kimi K2.5 Agent Swarm",
+                    "url": "https://kimi.moonshot.cn/blog/k2-5",
+                    "source": "Moonshot AI",
+                    "date": "2026-01-27",
+                    "one_liner": "Kimi K2.5：100 子 Agent 并行编排",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "moonshot",
+                        "agents"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Multimodal",
+            "items": [
+                {
+                    "ref_id": "moonshot-kimi-k25",
+                    "title": "Kimi K2.5 多模态",
+                    "url": "https://kimi.moonshot.cn/blog/k2-5",
+                    "source": "Moonshot AI",
+                    "date": "2026-01-27",
+                    "one_liner": "万亿参数多模态：文本+图像+视频原生处理",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "moonshot",
+                        "multimodal"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OpenSource",
+            "items": [
+                {
+                    "ref_id": "nvidia-nemotron3-nano",
+                    "title": "Nemotron 3 Nano (32B MoE)",
+                    "url": "https://developer.nvidia.com/blog/nemotron-3-nano",
+                    "source": "NVIDIA",
+                    "date": "2026-02-07",
+                    "one_liner": "Nemotron 3 Nano：32B MoE + 百万 token 开源",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "nvidia",
+                        "open-source"
+                    ]
+                },
+                {
+                    "ref_id": "alibaba-qwen3-max-thinking",
+                    "title": "Qwen3-Max-Thinking",
+                    "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
+                    "source": "Alibaba Cloud",
+                    "date": "2026-02-03",
+                    "one_liner": "万亿参数推理模型，开源可用",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "alibaba",
+                        "open-source"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Safety",
+            "items": [
+                {
+                    "ref_id": "openai-disbands-alignment-team",
+                    "title": "OpenAI 解散对齐团队",
+                    "url": "https://platformer.news/openai-alignment-team-disbanded",
+                    "source": "Platformer",
+                    "date": "2026-02-11",
+                    "one_liner": "OpenAI 解散 Mission Alignment 团队",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 4,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "safety"
+                    ]
+                },
+                {
+                    "ref_id": "intl-ai-safety-report-2026",
+                    "title": "国际 AI 安全报告 2026",
+                    "url": "https://www.thesafetymag.com/us/topics/ai-safety-report-2026",
+                    "source": "Int'l Report",
+                    "date": "2026-02-10",
+                    "one_liner": "前沿 AI 带来自动化偏见和恶意使用风险",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "safety",
+                        "regulation"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Industry",
+            "items": [
+                {
+                    "ref_id": "anthropic-30b-funding",
+                    "title": "Anthropic $30B 融资",
+                    "url": "https://anthropic.com/news/series-g",
+                    "source": "Anthropic",
+                    "date": "2026-02-12",
+                    "one_liner": "300 亿美元 Series G，估值 3800 亿",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "anthropic",
+                        "funding"
+                    ]
+                },
+                {
+                    "ref_id": "february-model-rush",
+                    "title": "February Model Rush",
+                    "url": "https://jangwook.net/2026/02/model-rush",
+                    "source": "AI Analysis",
+                    "date": "2026-02-10",
+                    "one_liner": "中美巨头 2 月集中发布新模型",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 3,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "industry",
+                        "competition"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Policy",
+            "items": [
+                {
+                    "ref_id": "openai-accuses-deepseek",
+                    "title": "OpenAI 指控 DeepSeek 蒸馏窃取",
+                    "url": "https://www.latimes.com/business/story/2026-02-12/openai-deepseek-ip-theft",
+                    "source": "LA Times",
+                    "date": "2026-02-12",
+                    "one_liner": "模型蒸馏的知识产权争议首次公开化",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 4,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "deepseek",
+                        "policy"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Research",
+            "items": [
+                {
+                    "ref_id": "gpt52-physics-discovery",
+                    "title": "GPT-5.2 物理学新发现",
+                    "url": "https://openai.com/research/gpt-5-2-physics",
+                    "source": "OpenAI",
+                    "date": "2026-02-13",
+                    "one_liner": "GPT-5.2 推导出理论物理新结果",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 4,
+                        "freshness": 5
+                    },
+                    "tags": [
+                        "openai",
+                        "research"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tag_index": {
+        "openai": [
+            "openai-gpt53-codex-spark",
+            "openai-retires-legacy-models",
+            "openai-frontier-platform",
+            "openai-disbands-alignment-team",
+            "openai-accuses-deepseek",
+            "gpt52-physics-discovery"
+        ],
+        "coding": [
+            "openai-gpt53-codex-spark"
+        ],
+        "gpt-5": [
+            "openai-gpt53-codex-spark",
+            "openai-retires-legacy-models",
+            "gpt52-physics-discovery"
+        ],
+        "cerebras": [
+            "openai-gpt53-codex-spark"
+        ],
+        "anthropic": [
+            "anthropic-claude-opus-46",
+            "anthropic-30b-funding"
+        ],
+        "claude": [
+            "anthropic-claude-opus-46"
+        ],
+        "long-context": [
+            "anthropic-claude-opus-46",
+            "nvidia-nemotron3-nano"
+        ],
+        "agents": [
+            "anthropic-claude-opus-46",
+            "openai-frontier-platform",
+            "moonshot-kimi-k25"
+        ],
+        "google": [
+            "google-gemini3-deep-think"
+        ],
+        "gemini": [
+            "google-gemini3-deep-think"
+        ],
+        "reasoning": [
+            "google-gemini3-deep-think",
+            "alibaba-qwen3-max-thinking"
+        ],
+        "science": [
+            "google-gemini3-deep-think",
+            "gpt52-physics-discovery"
+        ],
+        "moonshot": [
+            "moonshot-kimi-k25"
+        ],
+        "multimodal": [
+            "moonshot-kimi-k25"
+        ],
+        "moe": [
+            "moonshot-kimi-k25",
+            "nvidia-nemotron3-nano"
+        ],
+        "chinese-ai": [
+            "moonshot-kimi-k25",
+            "alibaba-qwen3-max-thinking",
+            "february-model-rush"
+        ],
+        "alibaba": [
+            "alibaba-qwen3-max-thinking"
+        ],
+        "qwen": [
+            "alibaba-qwen3-max-thinking"
+        ],
+        "open-source": [
+            "alibaba-qwen3-max-thinking",
+            "nvidia-nemotron3-nano"
+        ],
+        "nvidia": [
+            "nvidia-nemotron3-nano"
+        ],
+        "safety": [
+            "openai-disbands-alignment-team",
+            "intl-ai-safety-report-2026"
+        ],
+        "policy": [
+            "openai-accuses-deepseek"
+        ],
+        "deepseek": [
+            "openai-accuses-deepseek"
+        ],
+        "distillation": [
+            "openai-accuses-deepseek"
+        ],
+        "funding": [
+            "anthropic-30b-funding"
+        ],
+        "industry": [
+            "anthropic-30b-funding",
+            "february-model-rush"
+        ],
+        "enterprise": [
+            "openai-frontier-platform"
+        ],
+        "research": [
+            "gpt52-physics-discovery"
+        ],
+        "regulation": [
+            "intl-ai-safety-report-2026"
+        ],
+        "migration": [
+            "openai-retires-legacy-models"
+        ]
+    },
+    "search_summaries": [
+        {
+            "query_hint": "openai gpt",
+            "matching_tags": [
+                "openai",
+                "gpt-5",
+                "coding",
+                "cerebras"
+            ],
+            "top_refs": [
+                "openai-gpt53-codex-spark",
+                "openai-retires-legacy-models",
+                "gpt52-physics-discovery"
+            ],
+            "one_sentence_map": "OpenAI 动态：Codex-Spark 跑 Cerebras、旧模型下线、GPT-5.2 物理发现"
+        },
+        {
+            "query_hint": "agent 智能体",
+            "matching_tags": [
+                "agents",
+                "enterprise",
+                "platform"
+            ],
+            "top_refs": [
+                "openai-frontier-platform",
+                "anthropic-claude-opus-46",
+                "moonshot-kimi-k25"
+            ],
+            "one_sentence_map": "Agent 进展：OpenAI Frontier 企业平台 + Claude Agent Teams + Kimi Agent Swarm"
+        },
+        {
+            "query_hint": "安全 对齐 safety",
+            "matching_tags": [
+                "safety",
+                "alignment",
+                "governance",
+                "regulation"
+            ],
+            "top_refs": [
+                "openai-disbands-alignment-team",
+                "intl-ai-safety-report-2026"
+            ],
+            "one_sentence_map": "安全动态：OpenAI 解散对齐团队 + 国际安全报告警告自动化偏见"
+        },
+        {
+            "query_hint": "开源 open source",
+            "matching_tags": [
+                "open-source",
+                "nvidia",
+                "alibaba",
+                "moe"
+            ],
+            "top_refs": [
+                "nvidia-nemotron3-nano",
+                "alibaba-qwen3-max-thinking"
+            ],
+            "one_sentence_map": "开源：Nemotron 3 Nano（32B MoE + 1M ctx）+ Qwen3-Max-Thinking（万亿参）"
+        },
+        {
+            "query_hint": "中国 AI chinese",
+            "matching_tags": [
+                "chinese-ai",
+                "moonshot",
+                "alibaba",
+                "deepseek"
+            ],
+            "top_refs": [
+                "moonshot-kimi-k25",
+                "alibaba-qwen3-max-thinking",
+                "openai-accuses-deepseek"
+            ],
+            "one_sentence_map": "中国 AI：Kimi K2.5 万亿参 + Qwen3 推理 + DeepSeek 蒸馏争议"
+        },
+        {
+            "query_hint": "reasoning 推理",
+            "matching_tags": [
+                "reasoning",
+                "science",
+                "benchmark"
+            ],
+            "top_refs": [
+                "google-gemini3-deep-think",
+                "alibaba-qwen3-max-thinking",
+                "gpt52-physics-discovery"
+            ],
+            "one_sentence_map": "推理：Gemini 3 HLE 48.4%、Qwen3 万亿参推理、GPT-5.2 物理发现"
+        }
+    ],
+    "duplicates": [
+        {
+            "title": "GPT-5.3 Codex Spark: OpenAI's New Fast Coding AI (TechCrunch)",
+            "url": "https://techcrunch.com/2026/02/12/gpt-5-3-codex-spark",
+            "merged_into": "openai-gpt53-codex-spark",
+            "reason": "二手报道，信息量少于 OpenAI 官方博客"
+        },
+        {
+            "title": "Anthropic 完成 300 亿美元融资（机器之心）",
+            "url": "https://jiqizhixin.com/articles/anthropic-30b",
+            "merged_into": "anthropic-30b-funding",
+            "reason": "中文转载，无新增分析"
+        },
+        {
+            "title": "OpenAI Points Finger at DeepSeek (Reuters)",
+            "url": "https://www.reuters.com/technology/openai-deepseek-distillation",
+            "merged_into": "openai-accuses-deepseek",
+            "reason": "同一事件的重复报道，LA Times 版本更详细"
+        }
+    ]
+}

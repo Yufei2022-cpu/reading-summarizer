@@ -1,0 +1,14 @@
+# Example sources file for gad
+# Lines starting with # are comments
+# Each line can be a direct URL or an RSS/Atom feed URL
+
+# RSS Feeds (detected automatically)
+https://hnrss.org/frontpage
+https://feeds.arstechnica.com/arstechnica/index
+
+# Direct article URLs
+https://example.com/article-to-read
+
+# Technology blogs
+# https://blog.pragmaticengineer.com/rss/
+# https://martinfowler.com/feed.atom

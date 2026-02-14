@@ -1,0 +1,30 @@
+# GAD (Good Article Digest) Configuration
+# Copy this file to settings.yaml and customize as needed
+
+# Output directory for all data files
+# Default: ./data (relative to where you run gad)
+output_dir: ./data
+
+# OpenAI model to use for summarization
+# Requires OPENAI_API_KEY environment variable
+# If no API key, falls back to mock summarizer
+model: gpt-4o-mini
+
+# Maximum characters to send to the LLM
+# Longer articles will be truncated
+max_input_chars: 15000
+
+# Default tags to apply to all ingested articles
+# Can be overridden per-article with --tag
+default_tags:
+  - reading-list
+
+# HTTP request settings
+http:
+  # Timeout in seconds for fetching URLs
+  timeout: 30
+  # User agent string
+  user_agent: "GAD/0.1 (Good Article Digest; +https://github.com/example/gad)"
+
+# Logging level: DEBUG, INFO, WARNING, ERROR
+log_level: INFO
