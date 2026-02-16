@@ -1,0 +1,1084 @@
+{
+    "schema_version": "v1",
+    "generated_at": "2026-02-16",
+    "stats": {
+        "items_in": 87,
+        "items_kept": 14,
+        "top_stories_count": 14,
+        "duplicates_count": 3
+    },
+    "top_stories": [
+        {
+            "id": "gpt-5-2-physics-discovery",
+            "title": "GPT-5.2 Derives New Result in Theoretical Physics",
+            "subtitle": "GPT-5.2 在理论物理领域推导出全新研究成果",
+            "url": "https://openai.com/index/gpt-5-2-physics/",
+            "source": "OpenAI",
+            "date": "2026-02-13",
+            "section": "Research",
+            "one_liner": "GPT-5.2推导出胶子散射幅新公式并完成数学证明",
+            "bullets": [
+                "GPT-5.2 Pro首次猜想出单负螺旋度胶子树级散射幅公式",
+                "内部强化版模型耗时12小时自主生成形式化数学证明",
+                "推翻了粒子物理学界长期认为特定胶子相互作用为零的假设",
+                "预印本已提交arXiv，正接受同行评审"
+            ],
+            "why_it_matters": "这是AI首次在前沿理论物理领域做出期刊级别的原创贡献，标志着AI辅助科学发现进入新阶段。该成果可能重塑高能物理学对强力的理解，也为AI在基础科学研究中的角色提供了重要范例。",
+            "action_items": [
+                "关注arXiv预印本及后续同行评审结果",
+                "评估GPT-5.2在自身研究领域的科学推理应用潜力"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "openai",
+                "gpt-5",
+                "scientific-discovery",
+                "physics",
+                "reasoning"
+            ],
+            "notes": "预印本阶段，需等待同行评议"
+        },
+        {
+            "id": "anthropic-30b-series-g-funding",
+            "title": "Anthropic Raises $30B Series G at $380B Valuation",
+            "subtitle": "Anthropic完成300亿美元G轮融资，估值达3800亿",
+            "url": "https://www.anthropic.com/news/series-g",
+            "source": "Anthropic",
+            "date": "2026-02-12",
+            "section": "Industry",
+            "one_liner": "Anthropic获300亿美元融资，创AI行业私募纪录",
+            "bullets": [
+                "GIC与Coatue联合领投，为史上最大AI私募融资之一",
+                "公司年化收入已达140亿美元，Claude Code为主要增长驱动",
+                "估值从此前约600亿飙升至3800亿美元",
+                "融资将用于前沿研究、产品开发和基础设施扩展"
+            ],
+            "why_it_matters": "这笔融资不仅刷新了AI行业私募纪录，更反映出市场对AI安全研究路线的高度认可。Anthropic的年化收入增长印证了Claude系列产品的强劲商业化能力，也加剧了头部AI实验室之间的军备竞赛。",
+            "action_items": [
+                "关注Anthropic后续基础设施扩展和产品路线图",
+                "评估AI行业估值泡沫风险与长期投资机会"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "anthropic",
+                "funding",
+                "venture-capital",
+                "valuation"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "gemini-3-deep-think-upgrade",
+            "title": "Google Upgrades Gemini 3 Deep Think with Record Benchmark Scores",
+            "subtitle": "谷歌升级Gemini 3 Deep Think，多项基准创新高",
+            "url": "https://blog.google/technology/google-deepmind/gemini-3-deep-think/",
+            "source": "Google DeepMind",
+            "date": "2026-02-12",
+            "section": "Models",
+            "one_liner": "Gemini 3 Deep Think在多个推理基准上刷新纪录",
+            "bullets": [
+                "Humanity's Last Exam得分48.4%（无工具），ARC-AGI-2达84.6%",
+                "Codeforces Elo达3455，IMO 2025金牌水平",
+                "面向AI Ultra订阅用户和部分研究人员开放",
+                "覆盖物理、化学奥赛等多学科推理场景"
+            ],
+            "why_it_matters": "Deep Think模式的升级使Gemini 3在复杂推理领域达到新高度，尤其在数学和编程竞赛中的表现已接近甚至超越人类顶尖水平。这标志着推理型AI模型的竞争进入白热化阶段，对科研和工程应用有深远影响。",
+            "action_items": [
+                "测试Gemini 3 Deep Think在科研和工程问题上的表现",
+                "对比GPT-5.2和Gemini 3 Deep Think在特定任务上的差异"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 5,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "google",
+                "deepmind",
+                "gemini",
+                "reasoning",
+                "benchmarks"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-gpt4o-retirement",
+            "title": "OpenAI Retires GPT-4o, GPT-4.1 and o4-mini",
+            "subtitle": "OpenAI正式退役GPT-4o、GPT-4.1及o4-mini系列模型",
+            "url": "https://mashable.com/article/openai-retires-gpt4o",
+            "source": "Mashable",
+            "date": "2026-02-13",
+            "section": "Models",
+            "one_liner": "OpenAI宣布退役多款旧模型，全面转向GPT-5系列",
+            "bullets": [
+                "GPT-4o、GPT-4.1、GPT-4.1 mini及o4-mini同步退役",
+                "官方称GPT-5.1和5.2已根据用户反馈持续改进",
+                "仅极少比例用户仍在使用被退役模型",
+                "标志着OpenAI模型迭代进入GPT-5时代"
+            ],
+            "why_it_matters": "GPT-4o系列退役标志着OpenAI完成代际切换，GPT-5系列成为唯一主力。这对依赖GPT-4系列API的企业客户提出了迁移要求，也反映了AI模型迭代速度之快，从发布到退役周期大幅缩短。",
+            "action_items": [
+                "检查现有应用是否依赖GPT-4o API并制定迁移计划",
+                "评估GPT-5.1/5.2在现有工作流中的兼容性"
+            ],
+            "read_time_min": 3,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "openai",
+                "gpt-4o",
+                "model-deprecation",
+                "gpt-5"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "chatgpt-ads-launch",
+            "title": "OpenAI Begins Testing Ads in ChatGPT for Free Users",
+            "subtitle": "OpenAI开始在ChatGPT中为免费用户测试广告",
+            "url": "https://openai.com/index/ads-in-chatgpt/",
+            "source": "OpenAI",
+            "date": "2026-02-09",
+            "section": "Industry",
+            "one_liner": "ChatGPT免费用户将看到广告，付费用户不受影响",
+            "bullets": [
+                "2月9日起在美国面向Free和Go订阅层级用户推出",
+                "广告显示在AI回复下方，标注为赞助内容",
+                "基于对话主题和历史交互推荐广告",
+                "用户可关闭广告个性化或升级付费套餐免广告"
+            ],
+            "why_it_matters": "这是ChatGPT首次引入广告模式，标志着OpenAI从纯订阅制向混合盈利模式的重大转型。此举可能重塑AI产品的商业格局，同时引发用户对隐私和AI中立性的关注。",
+            "action_items": [
+                "关注广告对ChatGPT用户体验和回答质量的影响",
+                "评估AI广告平台对数字营销行业的潜在机会"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "openai",
+                "chatgpt",
+                "advertising",
+                "monetization"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "openai-mission-alignment-team-disbanded",
+            "title": "OpenAI Disbands Mission Alignment Team",
+            "subtitle": "OpenAI解散使命对齐团队，负责人转任首席未来学家",
+            "url": "https://www.platformer.news/openai-disbands-mission-alignment-team/",
+            "source": "Platformer",
+            "date": "2026-02-12",
+            "section": "Safety",
+            "one_liner": "OpenAI再次解散安全相关团队，引发行业担忧",
+            "bullets": [
+                "使命对齐团队7名成员被重新分配到其他部门",
+                "团队负责人Josh Achiam转任OpenAI'首席未来学家'",
+                "这是继2024年超级对齐团队解散后又一次安全团队重组",
+                "OpenAI称此为快速发展公司的'常规重组'"
+            ],
+            "why_it_matters": "OpenAI在两年内第二次解散专职安全团队，这一模式引发了AI安全社区的严重关切。在GPT-5系列能力快速提升的背景下，安全研究的独立性和优先级问题更显突出，可能影响监管机构对OpenAI的态度。",
+            "action_items": [
+                "追踪AI安全社区和监管机构对此事件的反应",
+                "关注OpenAI后续安全研究架构调整"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "openai",
+                "ai-safety",
+                "alignment",
+                "governance"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "international-ai-safety-report-2026",
+            "title": "Second International AI Safety Report Warns of Uncertain Trajectory",
+            "subtitle": "第二份国际AI安全报告警告AI发展前景深度不确定",
+            "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2026",
+            "source": "UK Government",
+            "date": "2026-02-10",
+            "section": "Policy",
+            "one_liner": "国际AI安全报告指出通用AI发展轨迹深度不确定",
+            "bullets": [
+                "报告覆盖就业、自主性、滥用和失控等多维风险",
+                "指出当前AI系统存在不可预测故障，含编造信息等问题",
+                "评估科技公司自愿安全承诺的落实存在证据缺口",
+                "将为即将举行的印度AI影响峰会提供决策参考"
+            ],
+            "why_it_matters": "这份跨国报告首次系统性评估了AI安全承诺的执行情况，揭示了自愿框架的局限性。报告对AI智能体风险的前瞻性分析，将直接影响全球AI治理议程和各国监管策略的制定。",
+            "action_items": [
+                "阅读完整报告以了解最新AI风险评估框架",
+                "评估所在组织的AI部署是否符合报告建议的安全标准"
+            ],
+            "read_time_min": 8,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "ai-safety",
+                "policy",
+                "regulation",
+                "governance",
+                "international"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "uk-ai-chatbot-regulation",
+            "title": "UK Moves to Force AI Chatbots Under Online Safety Act",
+            "subtitle": "英国拟将AI聊天机器人纳入在线安全法监管",
+            "url": "https://www.gov.uk/government/news/new-laws-to-protect-children-from-ai-chatbots",
+            "source": "UK Government",
+            "date": "2026-02-14",
+            "section": "Policy",
+            "one_liner": "英国将修法要求所有AI聊天机器人遵守非法内容义务",
+            "bullets": [
+                "拟修正犯罪与治安法案，强制聊天机器人阻止非法内容",
+                "将启动儿童数字福祉咨询，考虑限制未成年人使用AI",
+                "回应AI聊天机器人生成非自愿性化内容的事件",
+                "旨在关闭现有《在线安全法》的监管漏洞"
+            ],
+            "why_it_matters": "英国率先尝试将AI聊天机器人明确纳入内容安全法律框架，这可能成为全球AI监管的先例。此举直接回应了AI生成有害内容的现实问题，对所有AI聊天机器人提供商提出了合规要求。",
+            "action_items": [
+                "关注法案修正进展及对AI服务提供商的具体要求",
+                "评估自身AI产品在内容安全方面的合规性"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "regulation",
+                "uk",
+                "online-safety",
+                "chatbot",
+                "children-safety"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "microsoft-copilot-agent-mode",
+            "title": "Microsoft 365 Copilot Agent Mode Rolls Out Across Office Apps",
+            "subtitle": "Microsoft 365 Copilot Agent模式全面推向Office应用",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/copilot-agent-mode/",
+            "source": "Microsoft",
+            "date": "2026-02-11",
+            "section": "Agents",
+            "one_liner": "Copilot从聊天助手进化为可执行多步任务的AI代理",
+            "bullets": [
+                "Agent模式2月起在Word、Excel、PowerPoint网页版推出",
+                "OneDrive代理正式上线，支持同时查询20个文档",
+                "新增Copilot Notebook Grounding功能增强上下文理解",
+                "Researcher Agent面向政府云（GCC）用户开放"
+            ],
+            "why_it_matters": "Copilot从对话助手到操作型AI代理的转变，标志着AI在企业办公场景中角色的根本性变化。这一升级使AI能够真正执行多步骤工作流，而不仅是生成内容，可能重新定义知识工作的效率标准。",
+            "action_items": [
+                "评估Agent模式在团队工作流中的应用场景",
+                "测试OneDrive代理在文档密集型任务中的效果"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "microsoft",
+                "copilot",
+                "agents",
+                "office-365",
+                "enterprise"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "glm-5-open-source-745b",
+            "title": "Zhipu AI Releases GLM-5: 745B Open-Source LLM Trained on Huawei Chips",
+            "subtitle": "智谱AI发布GLM-5：745B参数开源大模型，全程使用华为芯片训练",
+            "url": "https://huggingface.co/THUDM/glm-5",
+            "source": "Hugging Face",
+            "date": "2026-02-13",
+            "section": "OpenSource",
+            "one_liner": "GLM-5开源发布，745B参数，全程基于华为昇腾芯片训练",
+            "bullets": [
+                "745亿参数规模，采用MIT许可证开源",
+                "全程在华为昇腾芯片上完成训练，不依赖NVIDIA GPU",
+                "模型权重已上线Hugging Face和ModelScope",
+                "展示了非NVIDIA生态的大模型训练可行性"
+            ],
+            "why_it_matters": "GLM-5是迄今为止最大规模的完全在非NVIDIA硬件上训练的开源大模型。这不仅证明了华为昇腾芯片在大规模AI训练中的竞争力，也为受芯片出口限制影响的机构提供了替代方案，具有重要的地缘技术意义。",
+            "action_items": [
+                "评估GLM-5在中文NLP任务上的表现",
+                "关注华为昇腾芯片训练效率与NVIDIA方案的对比数据"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "open-source",
+                "glm-5",
+                "zhipu",
+                "huawei",
+                "ascend",
+                "china"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "nvidia-rubin-platform-2026",
+            "title": "NVIDIA Rubin AI Chip Platform Details Emerge with 5× Inference Leap",
+            "subtitle": "NVIDIA Rubin平台细节曝光，推理性能较Blackwell提升5倍",
+            "url": "https://blogs.nvidia.com/blog/rubin-ai-platform/",
+            "source": "NVIDIA",
+            "date": "2026-02-11",
+            "section": "Systems",
+            "one_liner": "NVIDIA Rubin平台将集成HBM4，推理性能提升5倍",
+            "bullets": [
+                "Rubin GPU集成HBM4内存，配备Vera CPU和Rubin CPX4预填充加速器",
+                "推理性能较当前Blackwell平台提升最高5倍",
+                "引入异构内存架构（HBM4+GDDR7+LPDDR5X）优化LLM推理",
+                "专为'世界模型'——理解物理和3D空间的AI系统设计"
+            ],
+            "why_it_matters": "Rubin平台代表了NVIDIA从训练到推理的战略重心转移，异构内存架构的设计直接针对大模型推理阶段的效率瓶颈。5倍的性能提升将显著降低AI推理成本，加速AI应用的规模化部署。",
+            "action_items": [
+                "评估Rubin平台对现有AI基础设施升级计划的影响",
+                "关注Rubin与竞品（AMD MI400、Intel Falcon Shores）的对比"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 3
+            },
+            "tags": [
+                "nvidia",
+                "rubin",
+                "gpu",
+                "inference",
+                "hardware"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "kimi-k2-5-multimodal-agent",
+            "title": "Moonshot AI Releases Kimi K2.5 Open-Source Multimodal Agent Model",
+            "subtitle": "月之暗面发布Kimi K2.5开源多模态智能体模型",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+            "source": "Hugging Face",
+            "date": "2026-02-12",
+            "section": "Multimodal",
+            "one_liner": "Kimi K2.5融合视觉语言理解与智能体能力，开源发布",
+            "bullets": [
+                "原生多模态设计，集成视觉与语言理解能力",
+                "支持即时模式和深度思考模式双范式",
+                "具备对话型和智能体型两种交互模式",
+                "作为开源模型在Hugging Face上发布"
+            ],
+            "why_it_matters": "Kimi K2.5是少数将多模态理解与智能体能力原生融合的开源模型之一，为多模态Agent的开发和研究提供了重要基础设施。双模式设计在灵活性和适用范围上具有显著优势。",
+            "action_items": [
+                "测试Kimi K2.5在多模态Agent场景中的实际表现",
+                "与GPT-5.2和Gemini 3进行多模态任务对比评测"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 3,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "moonshot",
+                "kimi",
+                "multimodal",
+                "agents",
+                "open-source"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "transformers-js-v4-preview",
+            "title": "Hugging Face Launches Transformers.js v4 Preview for Browser AI",
+            "subtitle": "Hugging Face发布Transformers.js v4预览版，推动浏览器端AI推理",
+            "url": "https://huggingface.co/blog/transformersjs-v4",
+            "source": "Hugging Face",
+            "date": "2026-02-14",
+            "section": "OpenSource",
+            "one_liner": "Transformers.js v4支持浏览器和边缘设备本地AI推理",
+            "bullets": [
+                "v4预览版已在npm上线，支持浏览器和Edge设备",
+                "提供低延迟、隐私保护的本地AI推理能力",
+                "战略性推动AI从云端向边缘计算转移",
+                "降低AI部署门槛和推理成本"
+            ],
+            "why_it_matters": "Transformers.js v4将专业AI模型能力带入浏览器环境，对隐私敏感型应用和离线场景意义重大。这一方向可能催生新一代无需服务器的AI应用，改变web开发的范式。",
+            "action_items": [
+                "探索Transformers.js v4在现有Web应用中的集成方案",
+                "评估浏览器端推理对用户体验和数据隐私的改善"
+            ],
+            "read_time_min": 3,
+            "scores": {
+                "importance": 3,
+                "credibility": 5,
+                "freshness": 4
+            },
+            "tags": [
+                "hugging-face",
+                "transformers-js",
+                "browser-ai",
+                "edge-computing",
+                "open-source"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "microsoft-agent-framework-launch",
+            "title": "Microsoft Launches Unified Agent Framework Replacing Semantic Kernel and AutoGen",
+            "subtitle": "微软发布统一Agent框架，取代Semantic Kernel和AutoGen",
+            "url": "https://devblogs.microsoft.com/semantic-kernel/microsoft-agent-framework/",
+            "source": "Microsoft",
+            "date": "2026-02-10",
+            "section": "Agents",
+            "one_liner": "微软统一Agent SDK支持图工作流和人机协作模式",
+            "bullets": [
+                "开源SDK支持Python和.NET，取代Semantic Kernel和AutoGen",
+                "支持基于图的工作流、流式处理和检查点",
+                "内置人机协作模式（human-in-the-loop）",
+                "为企业级AI代理构建提供统一编排层"
+            ],
+            "why_it_matters": "微软将两大主流Agent框架合并为统一SDK，简化了企业AI代理的开发栈。这一整合反映了Agent框架从实验期走向成熟产品化的行业趋势，对开发者生态有重要影响。",
+            "action_items": [
+                "评估从现有Semantic Kernel/AutoGen项目的迁移路径",
+                "测试新Agent Framework在多代理编排场景中的能力"
+            ],
+            "read_time_min": 5,
+            "scores": {
+                "importance": 3,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "microsoft",
+                "agent-framework",
+                "sdk",
+                "open-source",
+                "enterprise"
+            ],
+            "notes": ""
+        }
+    ],
+    "sections": [
+        {
+            "name": "Research",
+            "items": [
+                {
+                    "ref_id": "gpt-5-2-physics-discovery",
+                    "title": "GPT-5.2 Derives New Result in Theoretical Physics",
+                    "url": "https://openai.com/index/gpt-5-2-physics/",
+                    "source": "OpenAI",
+                    "date": "2026-02-13",
+                    "one_liner": "GPT-5.2推导出胶子散射幅新公式并完成数学证明",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "openai",
+                        "gpt-5",
+                        "scientific-discovery"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Models",
+            "items": [
+                {
+                    "ref_id": "gemini-3-deep-think-upgrade",
+                    "title": "Google Upgrades Gemini 3 Deep Think with Record Benchmark Scores",
+                    "url": "https://blog.google/technology/google-deepmind/gemini-3-deep-think/",
+                    "source": "Google DeepMind",
+                    "date": "2026-02-12",
+                    "one_liner": "Gemini 3 Deep Think在多个推理基准上刷新纪录",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "google",
+                        "deepmind",
+                        "gemini"
+                    ]
+                },
+                {
+                    "ref_id": "openai-gpt4o-retirement",
+                    "title": "OpenAI Retires GPT-4o, GPT-4.1 and o4-mini",
+                    "url": "https://mashable.com/article/openai-retires-gpt4o",
+                    "source": "Mashable",
+                    "date": "2026-02-13",
+                    "one_liner": "OpenAI宣布退役多款旧模型，全面转向GPT-5系列",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "openai",
+                        "gpt-4o",
+                        "model-deprecation"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Industry",
+            "items": [
+                {
+                    "ref_id": "anthropic-30b-series-g-funding",
+                    "title": "Anthropic Raises $30B Series G at $380B Valuation",
+                    "url": "https://www.anthropic.com/news/series-g",
+                    "source": "Anthropic",
+                    "date": "2026-02-12",
+                    "one_liner": "Anthropic获300亿美元融资，创AI行业私募纪录",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "anthropic",
+                        "funding",
+                        "venture-capital"
+                    ]
+                },
+                {
+                    "ref_id": "chatgpt-ads-launch",
+                    "title": "OpenAI Begins Testing Ads in ChatGPT for Free Users",
+                    "url": "https://openai.com/index/ads-in-chatgpt/",
+                    "source": "OpenAI",
+                    "date": "2026-02-09",
+                    "one_liner": "ChatGPT免费用户将看到广告，付费用户不受影响",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "openai",
+                        "chatgpt",
+                        "advertising"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Safety",
+            "items": [
+                {
+                    "ref_id": "openai-mission-alignment-team-disbanded",
+                    "title": "OpenAI Disbands Mission Alignment Team",
+                    "url": "https://www.platformer.news/openai-disbands-mission-alignment-team/",
+                    "source": "Platformer",
+                    "date": "2026-02-12",
+                    "one_liner": "OpenAI再次解散安全相关团队，引发行业担忧",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "openai",
+                        "ai-safety",
+                        "alignment"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Policy",
+            "items": [
+                {
+                    "ref_id": "international-ai-safety-report-2026",
+                    "title": "Second International AI Safety Report Warns of Uncertain Trajectory",
+                    "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2026",
+                    "source": "UK Government",
+                    "date": "2026-02-10",
+                    "one_liner": "国际AI安全报告指出通用AI发展轨迹深度不确定",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "ai-safety",
+                        "policy",
+                        "regulation"
+                    ]
+                },
+                {
+                    "ref_id": "uk-ai-chatbot-regulation",
+                    "title": "UK Moves to Force AI Chatbots Under Online Safety Act",
+                    "url": "https://www.gov.uk/government/news/new-laws-to-protect-children-from-ai-chatbots",
+                    "source": "UK Government",
+                    "date": "2026-02-14",
+                    "one_liner": "英国将修法要求所有AI聊天机器人遵守非法内容义务",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "regulation",
+                        "uk",
+                        "online-safety"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Agents",
+            "items": [
+                {
+                    "ref_id": "microsoft-copilot-agent-mode",
+                    "title": "Microsoft 365 Copilot Agent Mode Rolls Out Across Office Apps",
+                    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/02/copilot-agent-mode/",
+                    "source": "Microsoft",
+                    "date": "2026-02-11",
+                    "one_liner": "Copilot从聊天助手进化为可执行多步任务的AI代理",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "microsoft",
+                        "copilot",
+                        "agents"
+                    ]
+                },
+                {
+                    "ref_id": "microsoft-agent-framework-launch",
+                    "title": "Microsoft Launches Unified Agent Framework Replacing Semantic Kernel and AutoGen",
+                    "url": "https://devblogs.microsoft.com/semantic-kernel/microsoft-agent-framework/",
+                    "source": "Microsoft",
+                    "date": "2026-02-10",
+                    "one_liner": "微软统一Agent SDK支持图工作流和人机协作模式",
+                    "scores": {
+                        "importance": 3,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "microsoft",
+                        "agent-framework",
+                        "sdk"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Systems",
+            "items": [
+                {
+                    "ref_id": "nvidia-rubin-platform-2026",
+                    "title": "NVIDIA Rubin AI Chip Platform Details Emerge with 5× Inference Leap",
+                    "url": "https://blogs.nvidia.com/blog/rubin-ai-platform/",
+                    "source": "NVIDIA",
+                    "date": "2026-02-11",
+                    "one_liner": "NVIDIA Rubin平台将集成HBM4，推理性能提升5倍",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "nvidia",
+                        "rubin",
+                        "gpu"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OpenSource",
+            "items": [
+                {
+                    "ref_id": "glm-5-open-source-745b",
+                    "title": "Zhipu AI Releases GLM-5: 745B Open-Source LLM Trained on Huawei Chips",
+                    "url": "https://huggingface.co/THUDM/glm-5",
+                    "source": "Hugging Face",
+                    "date": "2026-02-13",
+                    "one_liner": "GLM-5开源发布，745B参数，全程基于华为昇腾芯片训练",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "open-source",
+                        "glm-5",
+                        "zhipu"
+                    ]
+                },
+                {
+                    "ref_id": "transformers-js-v4-preview",
+                    "title": "Hugging Face Launches Transformers.js v4 Preview for Browser AI",
+                    "url": "https://huggingface.co/blog/transformersjs-v4",
+                    "source": "Hugging Face",
+                    "date": "2026-02-14",
+                    "one_liner": "Transformers.js v4支持浏览器和边缘设备本地AI推理",
+                    "scores": {
+                        "importance": 3,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "hugging-face",
+                        "transformers-js",
+                        "browser-ai"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Multimodal",
+            "items": [
+                {
+                    "ref_id": "kimi-k2-5-multimodal-agent",
+                    "title": "Moonshot AI Releases Kimi K2.5 Open-Source Multimodal Agent Model",
+                    "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+                    "source": "Hugging Face",
+                    "date": "2026-02-12",
+                    "one_liner": "Kimi K2.5融合视觉语言理解与智能体能力，开源发布",
+                    "scores": {
+                        "importance": 3,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "moonshot",
+                        "kimi",
+                        "multimodal"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tag_index": {
+        "openai": [
+            "gpt-5-2-physics-discovery",
+            "openai-gpt4o-retirement",
+            "chatgpt-ads-launch",
+            "openai-mission-alignment-team-disbanded"
+        ],
+        "gpt-5": [
+            "gpt-5-2-physics-discovery",
+            "openai-gpt4o-retirement"
+        ],
+        "scientific-discovery": [
+            "gpt-5-2-physics-discovery"
+        ],
+        "physics": [
+            "gpt-5-2-physics-discovery"
+        ],
+        "reasoning": [
+            "gpt-5-2-physics-discovery",
+            "gemini-3-deep-think-upgrade"
+        ],
+        "anthropic": [
+            "anthropic-30b-series-g-funding"
+        ],
+        "funding": [
+            "anthropic-30b-series-g-funding"
+        ],
+        "venture-capital": [
+            "anthropic-30b-series-g-funding"
+        ],
+        "valuation": [
+            "anthropic-30b-series-g-funding"
+        ],
+        "google": [
+            "gemini-3-deep-think-upgrade"
+        ],
+        "deepmind": [
+            "gemini-3-deep-think-upgrade"
+        ],
+        "gemini": [
+            "gemini-3-deep-think-upgrade"
+        ],
+        "benchmarks": [
+            "gemini-3-deep-think-upgrade"
+        ],
+        "gpt-4o": [
+            "openai-gpt4o-retirement"
+        ],
+        "model-deprecation": [
+            "openai-gpt4o-retirement"
+        ],
+        "chatgpt": [
+            "chatgpt-ads-launch"
+        ],
+        "advertising": [
+            "chatgpt-ads-launch"
+        ],
+        "monetization": [
+            "chatgpt-ads-launch"
+        ],
+        "ai-safety": [
+            "openai-mission-alignment-team-disbanded",
+            "international-ai-safety-report-2026"
+        ],
+        "alignment": [
+            "openai-mission-alignment-team-disbanded"
+        ],
+        "governance": [
+            "openai-mission-alignment-team-disbanded",
+            "international-ai-safety-report-2026"
+        ],
+        "policy": [
+            "international-ai-safety-report-2026",
+            "uk-ai-chatbot-regulation"
+        ],
+        "regulation": [
+            "international-ai-safety-report-2026",
+            "uk-ai-chatbot-regulation"
+        ],
+        "international": [
+            "international-ai-safety-report-2026"
+        ],
+        "uk": [
+            "uk-ai-chatbot-regulation"
+        ],
+        "online-safety": [
+            "uk-ai-chatbot-regulation"
+        ],
+        "chatbot": [
+            "uk-ai-chatbot-regulation"
+        ],
+        "children-safety": [
+            "uk-ai-chatbot-regulation"
+        ],
+        "microsoft": [
+            "microsoft-copilot-agent-mode",
+            "microsoft-agent-framework-launch"
+        ],
+        "copilot": [
+            "microsoft-copilot-agent-mode"
+        ],
+        "agents": [
+            "microsoft-copilot-agent-mode",
+            "kimi-k2-5-multimodal-agent"
+        ],
+        "office-365": [
+            "microsoft-copilot-agent-mode"
+        ],
+        "enterprise": [
+            "microsoft-copilot-agent-mode",
+            "microsoft-agent-framework-launch"
+        ],
+        "open-source": [
+            "glm-5-open-source-745b",
+            "kimi-k2-5-multimodal-agent",
+            "transformers-js-v4-preview",
+            "microsoft-agent-framework-launch"
+        ],
+        "glm-5": [
+            "glm-5-open-source-745b"
+        ],
+        "zhipu": [
+            "glm-5-open-source-745b"
+        ],
+        "huawei": [
+            "glm-5-open-source-745b"
+        ],
+        "ascend": [
+            "glm-5-open-source-745b"
+        ],
+        "china": [
+            "glm-5-open-source-745b"
+        ],
+        "nvidia": [
+            "nvidia-rubin-platform-2026"
+        ],
+        "rubin": [
+            "nvidia-rubin-platform-2026"
+        ],
+        "gpu": [
+            "nvidia-rubin-platform-2026"
+        ],
+        "inference": [
+            "nvidia-rubin-platform-2026"
+        ],
+        "hardware": [
+            "nvidia-rubin-platform-2026"
+        ],
+        "moonshot": [
+            "kimi-k2-5-multimodal-agent"
+        ],
+        "kimi": [
+            "kimi-k2-5-multimodal-agent"
+        ],
+        "multimodal": [
+            "kimi-k2-5-multimodal-agent"
+        ],
+        "hugging-face": [
+            "transformers-js-v4-preview"
+        ],
+        "transformers-js": [
+            "transformers-js-v4-preview"
+        ],
+        "browser-ai": [
+            "transformers-js-v4-preview"
+        ],
+        "edge-computing": [
+            "transformers-js-v4-preview"
+        ],
+        "agent-framework": [
+            "microsoft-agent-framework-launch"
+        ],
+        "sdk": [
+            "microsoft-agent-framework-launch"
+        ]
+    },
+    "search_summaries": [
+        {
+            "query_hint": "openai gpt-5 announcement",
+            "matching_tags": [
+                "openai",
+                "gpt-5",
+                "scientific-discovery",
+                "model-deprecation"
+            ],
+            "top_refs": [
+                "gpt-5-2-physics-discovery",
+                "openai-gpt4o-retirement",
+                "chatgpt-ads-launch"
+            ],
+            "one_sentence_map": "OpenAI本周发布GPT-5.2物理学突破、退役GPT-4o系列、并在ChatGPT中测试广告，标志模型能力和商业化的双重跃进。"
+        },
+        {
+            "query_hint": "anthropic claude funding",
+            "matching_tags": [
+                "anthropic",
+                "funding",
+                "venture-capital"
+            ],
+            "top_refs": [
+                "anthropic-30b-series-g-funding"
+            ],
+            "one_sentence_map": "Anthropic完成创纪录的300亿美元G轮融资，估值飙升至3800亿美元，巩固其在AI安全领域的领导地位。"
+        },
+        {
+            "query_hint": "google gemini deepmind reasoning",
+            "matching_tags": [
+                "google",
+                "deepmind",
+                "gemini",
+                "reasoning",
+                "benchmarks"
+            ],
+            "top_refs": [
+                "gemini-3-deep-think-upgrade"
+            ],
+            "one_sentence_map": "Gemini 3 Deep Think大幅升级，在数学、编程和科学推理基准上创下新纪录，强化Google在推理AI领域的竞争力。"
+        },
+        {
+            "query_hint": "ai safety regulation policy",
+            "matching_tags": [
+                "ai-safety",
+                "policy",
+                "regulation",
+                "alignment",
+                "governance"
+            ],
+            "top_refs": [
+                "openai-mission-alignment-team-disbanded",
+                "international-ai-safety-report-2026",
+                "uk-ai-chatbot-regulation"
+            ],
+            "one_sentence_map": "本周AI安全领域三大事件并发：OpenAI解散对齐团队、国际安全报告发布、英国推进聊天机器人立法，治理压力持续加大。"
+        },
+        {
+            "query_hint": "ai agent framework enterprise",
+            "matching_tags": [
+                "microsoft",
+                "copilot",
+                "agents",
+                "agent-framework",
+                "enterprise"
+            ],
+            "top_refs": [
+                "microsoft-copilot-agent-mode",
+                "microsoft-agent-framework-launch"
+            ],
+            "one_sentence_map": "微软双线出击，Copilot Agent模式全面上线并发布统一Agent SDK，企业AI代理生态加速成型。"
+        },
+        {
+            "query_hint": "open source ai model release",
+            "matching_tags": [
+                "open-source",
+                "glm-5",
+                "hugging-face",
+                "transformers-js",
+                "kimi"
+            ],
+            "top_refs": [
+                "glm-5-open-source-745b",
+                "transformers-js-v4-preview",
+                "kimi-k2-5-multimodal-agent"
+            ],
+            "one_sentence_map": "开源社区本周迎来GLM-5（745B华为芯片训练）、Kimi K2.5多模态智能体和Transformers.js v4三大发布，生态持续繁荣。"
+        }
+    ],
+    "duplicates": [
+        {
+            "title": "OpenAI's GPT-5.2 Makes Physics Breakthrough",
+            "url": "https://www.investing.com/news/gpt52-physics-discovery",
+            "merged_into": "gpt-5-2-physics-discovery",
+            "reason": "与OpenAI官方公告内容重复，选取一手来源"
+        },
+        {
+            "title": "Anthropic Secures Record AI Funding Round",
+            "url": "https://www.theguardian.com/technology/2026/feb/12/anthropic-30bn-funding",
+            "merged_into": "anthropic-30b-series-g-funding",
+            "reason": "与Anthropic官方融资公告内容一致，合并至官方来源"
+        },
+        {
+            "title": "Gemini 3 Deep Think Sets New Benchmark Records",
+            "url": "https://the-decoder.com/gemini-3-deep-think-upgrade/",
+            "merged_into": "gemini-3-deep-think-upgrade",
+            "reason": "与Google官方博客内容重复，保留一手来源"
+        }
+    ]
+}
