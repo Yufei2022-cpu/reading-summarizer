@@ -1,103 +1,102 @@
 {
     "schema_version": "v1",
-    "generated_at": "2026-02-14",
+    "generated_at": "2026-03-26",
     "stats": {
-        "items_in": 32,
+        "items_in": 52,
         "items_kept": 14,
         "top_stories_count": 14,
         "duplicates_count": 3
     },
     "top_stories": [
         {
-            "id": "openai-gpt53-codex-spark",
-            "title": "OpenAI Releases GPT-5.3-Codex-Spark: Ultra-Fast Coding Model on Cerebras Chips",
-            "subtitle": "GPT-5.3-Codex-Spark 发布，首次运行在 Cerebras 芯片上",
-            "url": "https://openai.com/index/gpt-5-3-codex-spark",
-            "source": "OpenAI",
-            "date": "2026-02-12",
-            "section": "Models",
-            "one_liner": "GPT-5.3-Codex-Spark：超快编码模型，首次脱离 NVIDIA",
+            "id": "openai-110b-funding-aws",
+            "title": "OpenAI Secures $110 Billion Funding Round Led by Amazon and Nvidia",
+            "subtitle": "OpenAI 获亚马逊和英伟达领投的 1100 亿美元融资",
+            "url": "https://www.mean.ceo/openai-110b-funding-aws",
+            "source": "mean.ceo",
+            "date": "2026-03-25",
+            "section": "Industry",
+            "one_liner": "OpenAI 完成创纪录的1100亿美元私募融资并深化与AWS算力合作。",
             "bullets": [
-                "专为实时编码优化的 research preview 模型",
-                "首个在 Cerebras Wafer-Scale Engine 3 上运行的 OpenAI 模型",
-                "标志着 OpenAI 硬件供应链多元化的开始",
-                "ChatGPT Pro 用户可直接使用"
+                "亚马逊、英伟达和软银领投本轮历史性融资。",
+                "包含与 AWS 价值1000亿美元的长期算力基础设施协议。",
+                "公司投后估值达到惊人的7300亿美元。",
+                "核心资金将用于下一代超大规模前沿模型研发及数据中心建设。"
             ],
-            "why_it_matters": "OpenAI 首次在非 NVIDIA 硬件上部署模型，这是 AI 算力供应链多元化的里程碑。编码模型的实时推理能力将重塑开发者工作流。",
+            "why_it_matters": "这笔史无前例的巨额融资重塑了生成式AI的算力格局，标志着顶尖大型模战全面进入重资产拼杀阶段，OpenAI的行业领先地位得到空前巩固。",
             "action_items": [
-                "申请 ChatGPT Pro 试用 Codex-Spark 实时编码",
-                "关注 Cerebras 芯片对推理成本的影响"
+                "关注OpenAI接下来的重点算力部署及新一代模型商业化应用场景。",
+                "评估生成式云服务商洗牌对企业AI基础设施长期战略的影响。"
             ],
             "read_time_min": 6,
             "scores": {
                 "importance": 5,
-                "credibility": 5,
+                "credibility": 4,
                 "freshness": 5
             },
             "tags": [
                 "openai",
-                "coding",
-                "gpt-5",
-                "cerebras",
-                "hardware"
+                "funding",
+                "aws",
+                "nvidia"
             ],
             "notes": ""
         },
         {
-            "id": "openai-retires-legacy-models",
-            "title": "OpenAI Retires GPT-4o, GPT-4.1, o4-mini from ChatGPT",
-            "subtitle": "GPT-4o 等旧模型从 ChatGPT 正式下线",
-            "url": "https://openai.com/index/model-updates-feb-2026",
-            "source": "OpenAI",
-            "date": "2026-02-13",
+            "id": "openai-sora-shutdown",
+            "title": "OpenAI Discontinues Sora Text-to-Video Tool Amid Strategic Pivot",
+            "subtitle": "OpenAI 停用 Sora 视频生成工具并中止与迪士尼合作",
+            "url": "https://www.latimes.com/business/openai-sora-shutdown-funding",
+            "source": "LA Times",
+            "date": "2026-03-24",
             "section": "Models",
-            "one_liner": "GPT-4o/4.1/o4-mini 从 ChatGPT 下线，GPT-5.2 成主力",
+            "one_liner": "受高昂推理成本和合规压力影响，OpenAI 全线关停生成式视频工具 Sora。",
             "bullets": [
-                "GPT-4o、GPT-4.1、GPT-4.1 mini、o4-mini 全部退役",
-                "GPT-5.2 已成为 ChatGPT 主流选择",
-                "API 访问暂时保留",
-                "用户需迁移至 GPT-5.x 系列"
+                "Sora 的消费者系统及开发者 API 已全线中止服务。",
+                "迪士尼随即撤回了早前谈妥的 10 亿美元投资与内容IP授权协议。",
+                "OpenAI 宣布将战略重心回归企业级智能产品和编程助手(Codex)。",
+                "折射出长视频生成模型在版权溯源和高算力消耗上面临的商业化死亡谷。"
             ],
-            "why_it_matters": "大规模模型下线标志 GPT-5 时代正式到来，依赖旧模型 API 的应用需尽快适配。",
+            "why_it_matters": "Sora 的突然折戟标志着生成式视频赛道的首次重大受挫，暴露了多模态视频应用受限于底层算力成本壁垒和深伪监管风暴的残酷现实。",
             "action_items": [
-                "检查项目中是否有对 GPT-4o/4.1 的硬编码依赖",
-                "制定 API 迁移计划至 GPT-5.2"
+                "及时寻找 Sora 替代方案或开源视频生成模型以维持业务运转。",
+                "重新审视企业内部AI内容短视频相关项目的合规评估。"
             ],
-            "read_time_min": 4,
+            "read_time_min": 7,
             "scores": {
-                "importance": 4,
+                "importance": 5,
                 "credibility": 5,
-                "freshness": 5
+                "freshness": 4
             },
             "tags": [
                 "openai",
-                "model-retirement",
-                "gpt-5",
-                "migration"
+                "sora",
+                "video-generation",
+                "pivot"
             ],
-            "notes": ""
+            "notes": "或将引发行业内针对多模态模型商业可持续性的系统级反思"
         },
         {
-            "id": "anthropic-claude-opus-46",
-            "title": "Anthropic Launches Claude Opus 4.6: 1M Context + Agent Teams",
-            "subtitle": "Claude Opus 4.6 发布：百万 token 上下文 + 多 Agent 协作",
-            "url": "https://anthropic.com/news/claude-opus-4-6",
-            "source": "Anthropic",
-            "date": "2026-02-05",
-            "section": "Models",
-            "one_liner": "Claude Opus 4.6：百万 token 上下文 + Agent 协作",
+            "id": "anthropic-claude-computer-use",
+            "title": "Anthropic Introduces Computer Use and Auto Mode for Claude",
+            "subtitle": "Anthropic 推出 Claude 的计算机操作与自动模式功能",
+            "url": "https://siliconangle.com/2026/03/05/anthropic-claude-computer-use-auto-mode",
+            "source": "SiliconANGLE",
+            "date": "2026-03-20",
+            "section": "Agents",
+            "one_liner": "Claude 代理现可自动化跨越多个系统级应用执行电脑屏幕任务。",
             "bullets": [
-                "1M token context window（beta）",
-                "Adaptive thinking 自适应推理",
-                "发现 500+ 开源代码高危安全漏洞",
-                "Agent teams 研究预览：多 Agent 并行分工"
+                "开放允许 Claude 通过模拟点击、滚动和键盘输入来操作桌面系统。",
+                "企业开发者专享自动模式(Auto Mode)，可无需人工二次授权直接执行代码和修改文件。",
+                "结合移动端调度工具 Dispatch 实现了跨设备的无缝任务指派网络。",
+                "进一步强化了 AI Agents 在日常办公中的端到端生产力自动化闭环。"
             ],
-            "why_it_matters": "百万 token 上下文 + 多 Agent 协作是 coding agent 的两大关键能力，Opus 4.6 首个同时具备两者。",
+            "why_it_matters": "这是AI Agent从聊天网页框架走向操作系统底层原生交互的关键里程碑。它大幅降低了人机交互的摩擦，让大语言模型真正具备了“数字白领”级的自动化执行能力。",
             "action_items": [
-                "测试百万 token 上下文在大型代码库上的表现",
-                "关注 Agent Teams 功能的 GA 时间"
+                "部署基于安全沙盒环境下的测试节点，评估 Claude 的底层读写操作安全性。",
+                "规划将此API能力整合至企业内部自动化RPA工作流平台中。"
             ],
-            "read_time_min": 8,
+            "read_time_min": 5,
             "scores": {
                 "importance": 5,
                 "credibility": 5,
@@ -106,483 +105,468 @@
             "tags": [
                 "anthropic",
                 "claude",
-                "long-context",
-                "agents",
-                "security"
+                "agent",
+                "computer-use"
             ],
-            "notes": ""
+            "notes": "测试版需特别关注数据隐私隔离边界"
         },
         {
-            "id": "anthropic-30b-funding",
-            "title": "Anthropic Raises $30B Series G at $380B Valuation",
-            "subtitle": "Anthropic 融资 300 亿美元，估值 3800 亿",
-            "url": "https://anthropic.com/news/series-g",
-            "source": "Anthropic",
-            "date": "2026-02-12",
-            "section": "Industry",
-            "one_liner": "Anthropic 300 亿美元融资，AI 公司估值新高",
-            "bullets": [
-                "Series G 融资 300 亿美元",
-                "估值达 3800 亿美元",
-                "资金将用于大规模 Agent 基础设施",
-                "超越多数传统科技公司市值"
-            ],
-            "why_it_matters": "这是 AI 行业有史以来最大单笔融资，表明市场对 Agent 基础设施的极度看好，也预示竞争将进一步白热化。",
-            "action_items": [
-                "关注 Anthropic 后续产品路线图变化",
-                "评估 Claude 生态作为长期技术栈的稳定性"
-            ],
-            "read_time_min": 5,
-            "scores": {
-                "importance": 5,
-                "credibility": 5,
-                "freshness": 5
-            },
-            "tags": [
-                "anthropic",
-                "funding",
-                "industry",
-                "valuation"
-            ],
-            "notes": ""
-        },
-        {
-            "id": "google-gemini3-deep-think",
-            "title": "Google DeepMind Releases Gemini 3 Deep Think for Scientific Reasoning",
-            "subtitle": "Gemini 3 Deep Think 发布，HLE 无工具得分 48.4%",
-            "url": "https://deepmind.google/technologies/gemini-3-deep-think",
-            "source": "Google DeepMind",
-            "date": "2026-02-12",
+            "id": "deepmind-gemini-3-dark-web",
+            "title": "Google DeepMind Rolls Out Gemini 3 Series and Dark Web Intelligence",
+            "subtitle": "谷歌发布 Gemini 3 系列模型及暗网威胁智能化分析系统",
+            "url": "https://www.theregister.com/2026/03/12/google_gemini_3_dark_web",
+            "source": "The Register",
+            "date": "2026-03-23",
             "section": "Models",
-            "one_liner": "Gemini 3 Deep Think 攻克科学推理前沿",
+            "one_liner": "Gemini 3 带来原生多模态推理升级，并重磅切入网络安全防御市场。",
             "bullets": [
-                "Humanity's Last Exam 无工具得分 48.4%",
-                "专攻科学、研究和工程推理",
-                "IMO 和 ICPC 达金牌水平",
-                "支持数学发现与物理推导"
+                "推出全面升级的 Gemini 3.0 Pro、3.1 Pro 和 3 Flash 等系列模型。",
+                "新型AI安全代理系统每日自动监测、抓取并分析高达千万条暗网帖子。",
+                "联合 Google Threat Intelligence 向政企输出精确度达98%的威胁情报预警。",
+                "与 Google Workspace 和新款 Pixel 设备实现深度生态整合绑定。"
             ],
-            "why_it_matters": "HLE 是目前最难的 AI 基准之一，48.4% 无工具得分代表 reasoning 能力的新高度，科研辅助场景将首先受益。",
+            "why_it_matters": "Gemini 3 系列展示了谷歌在多模态理解与 AI 实地垂直安全应用上的双重发力。将其引入暗网上亿元规模的情报分析产业，展示了通用模型过滤高门槛异构噪音数据的潜力。",
             "action_items": [
-                "在自己的领域问题上测试 Deep Think",
-                "与 GPT-5.2 在推理任务上做对比评测"
+                "跟进评测 Gemini 3 API在复杂文档跨区合成中的性能提升。",
+                "企业级IT安全团队应尽早申请网络威胁情报功能的试用名额。"
             ],
-            "read_time_min": 7,
+            "read_time_min": 8,
             "scores": {
-                "importance": 5,
+                "importance": 4,
                 "credibility": 5,
                 "freshness": 5
             },
             "tags": [
                 "google",
-                "gemini",
-                "reasoning",
-                "science",
-                "benchmark"
+                "gemini-3",
+                "cybersecurity",
+                "multimodal"
             ],
             "notes": ""
         },
         {
-            "id": "openai-frontier-platform",
-            "title": "OpenAI Launches 'Frontier' Platform: Enterprise AI Agent at Scale",
-            "subtitle": "OpenAI 发布 Frontier 企业 Agent 平台",
-            "url": "https://openai.com/index/frontier-platform",
-            "source": "OpenAI",
-            "date": "2026-02-11",
-            "section": "Agents",
-            "one_liner": "OpenAI Frontier：企业级 Agent 部署平台上线",
-            "bullets": [
-                "支持大规模构建、部署、管理 AI Agent",
-                "集成企业现有系统（ERP、CRM）",
-                "内置安全治理和审计功能",
-                "制造业案例：6 周工作缩短至 1 天"
-            ],
-            "why_it_matters": "OpenAI 首次推出面向企业的 Agent 管理平台，将 Agent 从实验室带入生产环境，是 Agent 商业化的标志事件。",
-            "action_items": [
-                "评估 Frontier 平台对现有 Agent 框架的替代可能",
-                "关注企业安全和合规功能的文档"
-            ],
-            "read_time_min": 8,
-            "scores": {
-                "importance": 5,
-                "credibility": 5,
-                "freshness": 5
-            },
-            "tags": [
-                "openai",
-                "agents",
-                "enterprise",
-                "platform",
-                "deployment"
-            ],
-            "notes": ""
-        },
-        {
-            "id": "moonshot-kimi-k25",
-            "title": "Moonshot AI Releases Kimi K2.5: Trillion-Param Multimodal with Agent Swarm",
-            "subtitle": "Kimi K2.5：万亿参数多模态 + Agent Swarm",
-            "url": "https://kimi.moonshot.cn/blog/k2-5",
-            "source": "Moonshot AI",
-            "date": "2026-01-27",
-            "section": "Multimodal",
-            "one_liner": "Kimi K2.5：万亿参数多模态 + 100 子 Agent 编排",
-            "bullets": [
-                "万亿参数 MoE（320 亿活跃参数）",
-                "Agent Swarm 支持 100 个子 Agent 并行",
-                "SWE-Bench Verified 得分 80.9%",
-                "MMMU Pro 75%，文本+图像+视频原生处理"
-            ],
-            "why_it_matters": "中国 AI 公司首次在 Agent 编排和多模态上同时达到世界顶级水平，Agent Swarm 概念可能引领下一代 Agent 架构。",
-            "action_items": [
-                "测试 Kimi K2.5 API 的多模态和 Agent Swarm 能力",
-                "研究 MoE 架构在大规模 Agent 编排中的优势"
-            ],
-            "read_time_min": 10,
-            "scores": {
-                "importance": 5,
-                "credibility": 4,
-                "freshness": 4
-            },
-            "tags": [
-                "moonshot",
-                "kimi",
-                "multimodal",
-                "agents",
-                "moe",
-                "chinese-ai"
-            ],
-            "notes": ""
-        },
-        {
-            "id": "alibaba-qwen3-max-thinking",
-            "title": "Alibaba Releases Qwen3-Max-Thinking: Trillion-Param Reasoning Model",
-            "subtitle": "Qwen3-Max-Thinking 发布，万亿参数推理模型",
-            "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
-            "source": "Alibaba Cloud",
-            "date": "2026-02-03",
-            "section": "Models",
-            "one_liner": "Qwen3-Max-Thinking：万亿参数推理大模型",
-            "bullets": [
-                "超万亿参数，专攻数学和科学推理",
-                "Experience-Cumulative TTS 迭代式推理",
-                "PhD 级别科学题解题能力",
-                "开源社区可用的最强推理模型之一"
-            ],
-            "why_it_matters": "中国开源推理模型进入万亿参数时代，TTS 技术让模型在推理过程中不断迭代优化答案，这是 reasoning scaling 的新方向。",
-            "action_items": [
-                "在 HumanEval、MATH 上对比 Qwen3 vs GPT-5.2",
-                "关注 TTS 技术的论文和开源实现"
-            ],
-            "read_time_min": 9,
-            "scores": {
-                "importance": 4,
-                "credibility": 4,
-                "freshness": 4
-            },
-            "tags": [
-                "alibaba",
-                "qwen",
-                "reasoning",
-                "open-source",
-                "trillion-param"
-            ],
-            "notes": ""
-        },
-        {
-            "id": "february-model-rush",
-            "title": "February 2026 'Model Rush': Gemini 3, Sonnet 5, GPT-5.3, DeepSeek v4 Expected",
-            "subtitle": "2026 年 2 月 Model Rush：巨头集中发布新模型",
-            "url": "https://jangwook.net/2026/02/model-rush",
-            "source": "AI Analysis",
-            "date": "2026-02-10",
-            "section": "Industry",
-            "one_liner": "Model Rush：Gemini 3/Sonnet 5/GPT-5.3/DeepSeek v4 扎堆发布",
-            "bullets": [
-                "Google: Gemini 3 Pro GA 预计 2 月内发布",
-                "Anthropic: Sonnet 5 即将发布",
-                "OpenAI: GPT-5.3 系列持续迭代",
-                "中国公司: DeepSeek v4、GLM 5、Qwen 3.5 齐发"
-            ],
-            "why_it_matters": "CES 后首个发布窗口，中美 AI 公司同步密集发布，竞争烈度前所未有，选型决策需延后至 3 月全面评测后再做。",
-            "action_items": [
-                "建立 Model Rush 追踪看板",
-                "等全面 benchmark 出炉后再做技术选型"
-            ],
-            "read_time_min": 5,
-            "scores": {
-                "importance": 4,
-                "credibility": 3,
-                "freshness": 5
-            },
-            "tags": [
-                "industry",
-                "model-rush",
-                "competition",
-                "chinese-ai"
-            ],
-            "notes": "部分模型仍为预告，尚未正式发布"
-        },
-        {
-            "id": "nvidia-nemotron3-nano",
-            "title": "NVIDIA Releases Nemotron 3 Nano: 32B MoE with 1M Context",
-            "subtitle": "Nemotron 3 Nano 开源：32B MoE + 1M 上下文",
-            "url": "https://developer.nvidia.com/blog/nemotron-3-nano",
+            "id": "nvidia-vera-rubin-groq-3",
+            "title": "NVIDIA Unveils Vera Rubin Platform and Groq 3 LPX Inference Accelerator",
+            "subtitle": "英伟达推出 Vera Rubin 平台与 Groq 3 LPX Agentic 推理加速器",
+            "url": "https://www.nvidia.com/en-us/newsroom/press-releases/2026/nvidia-vera-rubin-platform/",
             "source": "NVIDIA",
-            "date": "2026-02-07",
-            "section": "OpenSource",
-            "one_liner": "Nemotron 3 Nano：32B MoE + 百万 token 开源",
+            "date": "2026-03-18",
+            "section": "Systems",
+            "one_liner": "英伟达 GTC 2026 发布专为 AI 代理(Agent)打造的划时代低延迟推理架构。",
             "bullets": [
-                "32B 总参数，3.6B 活跃参数（MoE）",
-                "1M token context window",
-                "开源 weights + 训练数据集",
-                "适合边缘部署和长文本推理"
+                "Groq 3 LPX 芯片成为英伟达200亿美元收购 Groq 后的核心硬件结晶。",
+                "硬件从底层微缩设计开始全面转向支持大上下文、低延时智能体推理系统。",
+                "结合全生命周期的 Vera Rubin 开发平台，单张数据板可提升35倍推流能量效率。",
+                "采用革命性的异构设计模式：Rubin 处理文本预填充片段，Groq LPU 精管即时解码流程。"
             ],
-            "why_it_matters": "3.6B 活跃参数 + 1M 上下文 = 可在消费级硬件上运行的长文本推理模型，RAG 场景的最佳开源选择之一。",
+            "why_it_matters": "这标志着英伟达从过去单一GPU并行运算向面向代理任务专属异构计算演进的重大风向。加速器吞吐能力的跳跃式整合将彻底打破生成式AI多轮对话与自主行动的即时演算门槛。",
             "action_items": [
-                "在 Ollama 上本地跑 Nemotron 3 Nano",
-                "测试 1M 上下文在长文档问答中的表现"
+                "开始前瞻性评估全新 LPU 架构对内部私有大模型调度框架(如 TGI/vLLM)的兼容潜力。",
+                "基于出货时间表测算数据中心采购 Groq 3 相对于 H100 等老设施的经济成本对比。"
             ],
             "read_time_min": 7,
             "scores": {
-                "importance": 4,
+                "importance": 5,
                 "credibility": 5,
-                "freshness": 4
+                "freshness": 3
             },
             "tags": [
                 "nvidia",
-                "nemotron",
-                "open-source",
-                "moe",
-                "long-context"
+                "hardware",
+                "inference",
+                "groq",
+                "rubin"
             ],
-            "notes": ""
+            "notes": "主要出货档期预计落在2026年第三季度"
         },
         {
-            "id": "openai-disbands-alignment-team",
-            "title": "OpenAI Disbands Mission Alignment Team",
-            "subtitle": "OpenAI 解散 Mission Alignment 团队",
-            "url": "https://platformer.news/openai-alignment-team-disbanded",
-            "source": "Platformer",
-            "date": "2026-02-11",
-            "section": "Safety",
-            "one_liner": "OpenAI 解散对齐团队，安全治理引发担忧",
+            "id": "meta-llama-4-updates",
+            "title": "Meta AI Continues LLaMA 4 Dominance While Teasing Next-Gen Llama 4.5",
+            "subtitle": "Meta 继续主导开源领域生态并首度暗示 Llama 4.5 与新闭源大模型路标",
+            "url": "https://seekingalpha.com/article/meta-ai-llama-4-5-teaser",
+            "source": "Seeking Alpha",
+            "date": "2026-03-21",
+            "section": "OpenSource",
+            "one_liner": "Meta 多模态 MoE 架构的 LLaMA 4 仍处垄断地位，后续将孵化商业闭源侧支。",
             "bullets": [
-                "Mission Alignment 团队被正式解散",
-                "继 Superalignment 之后的第二次安全团队变动",
-                "引发行业对 OpenAI 安全承诺的质疑",
-                "竞争压力或为主因"
+                "开源市场的霸主级产品 Scout 和 Maverick 版本继续保持全球应用端极高分发率。",
+                "核心实验室首次释放内部代号 Llama 4.5 的下一代超级参数演进蓝图。",
+                "极大规模参数的子项目 'Avocado' (曾传作 Llama 4 Behemoth) 被爆延期且极可能转为付费闭源模式。",
+                "得益于量化微调技术突破，开源模型目前仅以极小能效成本紧咬 GPT-5 阶层头部差距。"
             ],
-            "why_it_matters": "AI 安全领域的标志性事件——行业领头羊在竞争压力下持续弱化安全投入，对整个行业的安全规范产生负面示范效应。",
+            "why_it_matters": "LLaMA 家族一成稳固地作为目前中端及私域离线企业模型的唯一最优解。但Meta管理层关于大参数节点可能采取防守闭源变现的传闻，或对下半年整个开源AI的平替走势带来剧变。",
             "action_items": [
-                "关注 OpenAI 自身对此的官方回应",
-                "重新评估对 OpenAI 模型安全性的依赖度"
+                "使用 LLaMA 4 Scout 精简版本开展内部边缘计算节点的嵌入式端侧场景评测验证。",
+                "长期战略中预留部分预算对抗后期主流大模型整体性全面转向闭源 API 订阅风险。"
             ],
             "read_time_min": 5,
             "scores": {
-                "importance": 5,
+                "importance": 4,
                 "credibility": 4,
-                "freshness": 5
+                "freshness": 4
             },
             "tags": [
-                "openai",
-                "safety",
-                "alignment",
-                "governance"
+                "meta",
+                "llama-4",
+                "open-source",
+                "moe"
             ],
-            "notes": ""
+            "notes": "Avocado 模型参数量将决定下一步业界天花板"
         },
         {
-            "id": "openai-accuses-deepseek",
-            "title": "OpenAI Accuses DeepSeek of IP Theft via Distillation",
-            "subtitle": "OpenAI 指控 DeepSeek 蒸馏窃取知识产权",
-            "url": "https://www.latimes.com/business/story/2026-02-12/openai-deepseek-ip-theft",
-            "source": "LA Times",
-            "date": "2026-02-12",
-            "section": "Policy",
-            "one_liner": "OpenAI 指控 DeepSeek：用蒸馏技术窃取模型能力",
+            "id": "ami-labs-seed-round",
+            "title": "Yann LeCun's AMI Labs Closes Europe's Largest Seed Round at $1.03 Billion",
+            "subtitle": "Yann LeCun 新锐企业 AMI Labs 斩获10.3亿美元种子轮，创欧洲历史纪录",
+            "url": "https://medium.com/@ai-news/ami-labs-billion-dollar-seed-round",
+            "source": "Medium",
+            "date": "2026-03-24",
+            "section": "Industry",
+            "one_liner": "估值高达 35 亿美元的初创公司横空出世，致力于彻底终结自回归语言模型神话并构建“真正”基于现实物理的AI。",
             "bullets": [
-                "OpenAI 正式指控 DeepSeek 使用蒸馏技术",
-                "指 R1 模型训练数据中含 OpenAI 输出",
-                "引发 AI 知识产权保护的全球讨论",
-                "可能推动 AI 输出版权新立法"
+                "由深度学习巨头 Yann LeCun 发起并领队。",
+                "一次性筹集史无前例的 10.3 亿美元种子阶段初始运行资金。",
+                "核心路线跳过所有文本自监督路径，独家专注建立基于现实三维动态观察的 'World Models'（世界模型）。",
+                "直接面向包括机器人与物理制造在内的纯物理实体化自动控制产业基座。"
             ],
-            "why_it_matters": "模型蒸馏的合法性边界首次进入公共视野，这将深刻影响开源 vs 闭源模型的竞争格局和国际 AI 政策走向。",
+            "why_it_matters": "现有语言模型(LLMs)已在常识纠错和纯物理逻辑演绎上呈现明显天花板，JEPA 范式与建立于三维感知的“世界模型”代表了目前学界突破 AGI 瓶颈最寄予厚望的前瞻性共识之一。",
             "action_items": [
-                "追踪知识产权诉讼后续进展",
-                "审视团队是否有类似蒸馏实践的合规风险"
+                "工程组织及时将纯自然语言文本的 AI 的重心拓展至结合视区感知模块的新试验验证网。",
+                "追踪 AMI Labs 联合预测架构可能开放的首批论文或权重试用源码发布情况。"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "ami-labs",
+                "funding",
+                "world-models",
+                "yann-lecun"
+            ],
+            "notes": "体现出资本从LLMs内卷向具身智能和物理AI的高速转移"
+        },
+        {
+            "id": "us-white-house-ai-policy-framework",
+            "title": "White House Releases National Policy Framework for Artificial Intelligence",
+            "subtitle": "美国白宫颁布核心《国家人工智能政策框架》",
+            "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260320-white-house-ai-policy-framework",
+            "source": "WilmerHale",
+            "date": "2026-03-20",
+            "section": "Policy",
+            "one_liner": "白宫公布最新法案雏形重点防范深伪干涉及保护未成年人隐私数据。",
+            "bullets": [
+                "提倡对美国各州复杂纷乱的独立地方人工智能法律采取统领式重配。",
+                "划定针对大规模式平台应用所包含儿童等敏感受众强制启用硬性年龄验证工具。",
+                "在避免过度阻碍创新的同时兼顾要求大厂公开针对前沿通用模型的脱敏数据风控报表。",
+                "对 AI 引发的高隐蔽性网络金融欺诈及虚假新闻出具了强执法的建议细则与打击指南。"
+            ],
+            "why_it_matters": "这是自去年底系列白宫行政命令后首次向落地的立法转化阶段迈出稳固一步。这为即将陷入合规风波的硅谷提供了清晰边界的基石，预示着全面监管合规时代的强硬落地不可逆转。",
+            "action_items": [
+                "合规与政府法律顾问团队必须立即筹备对用户年龄分层准保护审查协议的设计与上线。",
+                "确保公司部署的AIGC向C端服务涉及金融信贷内容时加入不可去除的强制性隐秘水印。"
             ],
             "read_time_min": 6,
             "scores": {
                 "importance": 5,
-                "credibility": 4,
-                "freshness": 5
+                "credibility": 5,
+                "freshness": 3
             },
             "tags": [
-                "openai",
-                "deepseek",
-                "ip-theft",
-                "distillation",
-                "policy"
+                "policy",
+                "white-house",
+                "safety",
+                "regulation"
             ],
             "notes": ""
         },
         {
-            "id": "intl-ai-safety-report-2026",
-            "title": "International AI Safety Report 2026: Frontier AI Poses Workplace Hazards",
-            "subtitle": "国际 AI 安全报告 2026：前沿 AI 带来职场新风险",
-            "url": "https://www.thesafetymag.com/us/topics/ai-safety-report-2026",
-            "source": "Int'l AI Safety Report",
-            "date": "2026-02-10",
-            "section": "Safety",
-            "one_liner": "国际 AI 安全报告：自动化偏见 + 恶意使用是最大风险",
+            "id": "eu-parliament-postpones-ai-rules",
+            "title": "EU Parliament Postpones Activation of High-Risk AI System Rules to 2027",
+            "subtitle": "欧洲议会推迟严苛的《高风险 AI 系统合规审查法案》生效时间至 2027 年",
+            "url": "https://europa.eu/newsroom/eu-parliament-postpones-high-risk-ai-rules-2027",
+            "source": "Europa",
+            "date": "2026-03-18",
+            "section": "Policy",
+            "one_liner": "因标准配套细分方案未能敲定，欧盟放宽悬在科技企业上的最严厉监管实施期。",
             "bullets": [
-                "前沿 AI 系统引入全新职场危害",
-                "Automation bias 削弱人类批判性思维",
-                "恶意使用和系统性中断风险上升",
-                "呼吁建立行业级 AI 使用安全标准"
+                "高风险类别 AI 服务相关的执行日期限长推至 2027 年 12 月 2 日。",
+                "受制于欧盟内具体部门对于跨产品形态技术安全校验尺度的评级不一与进度缓慢。",
+                "为大型驻留欧洲市场的科技软体服务企业提供了极其宝贵的商业过渡与可预见的法律重整期。",
+                "同时额外单独提议重罚与封锁那些涉及非意愿深度伪造暴露的“nudifier”擦边生成工具。"
             ],
-            "why_it_matters": "这是首份系统性评估 AI 对职场安全影响的国际报告，其建议可能直接推动各国立法，影响 AI 部署策略。",
+            "why_it_matters": "这一喘息调整突显了强硬监管政策赶不上AI技术裂变速度之间的深层矛盾。跨越国界管辖高层级模型不仅受挫于法律词汇约束，也阻碍到本土欧洲初创团队抢夺国际科技命脉先机。",
             "action_items": [
-                "下载报告全文并评估对自身团队的影响",
-                "建立 AI 辅助决策的 human-in-the-loop 机制"
+                "延后企业层对赴欧发行数据应用业务的全面代码大整改最后倒排日期。",
+                "将空余预算先用于优化内部多模态模型的虚假或违禁违背常识防护阻截模块上。"
             ],
-            "read_time_min": 12,
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "eu",
+                "ai-act",
+                "policy",
+                "regulation"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "jetbrains-koog-for-java",
+            "title": "JetBrains Launches Koog for Java Enterprise AI Agent Framework",
+            "subtitle": "JetBrains 对外公布针对 Java 开发者定制的企业级 AI Agents 构建框架 Koog",
+            "url": "https://www.jetbrains.com/news/koog-for-java-release/",
+            "source": "JetBrains",
+            "date": "2026-03-17",
+            "section": "Agents",
+            "one_liner": "赋能保守的非 Python 后台资产快速平替嵌入高并发智能体服务体系。",
+            "bullets": [
+                "出色的生态嵌入性支持通过 Spring Boot 高速搭建各类对话驱动后台服务。",
+                "统一化的 API 多端适配让开发者一键对接市面上从商业到开源的百款顶流 LLMs。",
+                "内建极度详尽的断点机制、强并发容错与模型状态追溯（Observability）管理控制台。",
+                "大幅抹平了传统业务后台架构进军多引擎混合人工智能驱动路线的技术学习陡坡。"
+            ],
+            "why_it_matters": "过去 Agent 框架过度偏僻于小众快速落地的 Python 原型侧平台，而 Koog 的横空出世则拉开了深水区沉重古早 Java 巨石银行、大基建系统进行自我 Agentic 智能翻新和造血的工业时代革命。",
+            "action_items": [
+                "向金融客户外包项目等纯 Java 技术研发组演示 Koog API Demo 并组织概念培训。",
+                "挑选高负荷并发数据报表查阅中心作为框架接入首批沙箱试点田。"
+            ],
+            "read_time_min": 3,
+            "scores": {
+                "importance": 3,
+                "credibility": 5,
+                "freshness": 3
+            },
+            "tags": [
+                "jetbrains",
+                "java",
+                "agent-framework",
+                "enterprise"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "microsoft-agent-framework-rc",
+            "title": "Microsoft Agent Framework Reaches Release Candidate Status",
+            "subtitle": "微软整合内部资源首发大一统 Agent Framework 最终候选开源版",
+            "url": "https://www.microsoft.com/en-us/developer/news/agent-framework-rc/",
+            "source": "Microsoft",
+            "date": "2026-03-16",
+            "section": "Agents",
+            "one_liner": "基于吸取 Semantic Kernel 先进经验，此开源巨舰剑指通用智能业务底座霸主地位。",
+            "bullets": [
+                "官宣替代先前的 Semantic Kernel 和 AutoGen 项目矩阵集中兵力冲击生产级别通用框架。",
+                "发布与 .NET 及 Python 深度交织打磨的同步跨链支撑组件接口。",
+                "全新公测基于微软数据网格与多智能体动态协同的独立服务组件 Foundry Agent Service。",
+                "大幅改善对不可预测流程的多阶段复合操作复杂指令及断网记忆重构处理容错限力。"
+            ],
+            "why_it_matters": "这是微软意图统治并重制当代“操作系统级智能中间件”话语权的致命一击。不仅解决内部重复造轮子的开发通病，更加速了庞大老企业上云构建 Agent 军团应用流水线的普及节点普及率。",
+            "action_items": [
+                "研读 RC 候选版底层与老版 Semantic Kernel 兼容衔接降级转换操作指南手册。",
+                "利用 Foundry Service 云支持特性尝试分片拆解原有的单人大模型提示词复杂长任务机制。"
+            ],
+            "read_time_min": 4,
+            "scores": {
+                "importance": 4,
+                "credibility": 5,
+                "freshness": 2
+            },
+            "tags": [
+                "microsoft",
+                "agent-framework",
+                ".net",
+                "python"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "pentagon-designates-anthropic-supply-chain-risk",
+            "title": "Pentagon Designates Anthropic as Supply Chain Risk Over Autonomous Weapons Policy",
+            "subtitle": "Anthropic 拒修改杀伤限制政策，遭美防部认定“供应链风险清单”排斥查封",
+            "url": "https://www.americancommunitymedia.org/pentagon-anthropic-supply-chain-risk/",
+            "source": "American Community Media",
+            "date": "2026-03-22",
+            "section": "Policy",
+            "one_liner": "因执意贯彻产品禁用条款，顶级大模型公司与美方军事需求产生尖锐正面司法对抗破裂。",
+            "bullets": [
+                "五角大楼将硅谷先锋 Anthropic 置于可能危及未来国家级涉密集采采购的红牌审查危险内库清单名册。",
+                "核心分歧点在公司宁可损失巨额政府高边境监控业务亦拒绝妥协开放用于自主致命武器系统的 API 端口接入特权。",
+                "Anthropic 针对官方决定援引第一修正案诉诸民商法庭的争议调停诉讼申诉状。",
+                "触发跨国安保舆论链对新兴极右化算法军事战争武器人道红线的反思风暴。"
+            ],
+            "why_it_matters": "硅谷最负盛名声张负责任的安全底线信仰在此事中面临了生死存亡量级的终极大考。这一起里程碑风波的裁定边界将决定未来全球范围超级头部 AI 公司与本国暴力国防机器同轨融合时的主仆权利从属走向。",
+            "action_items": [
+                "审视复盘并细微校准企业目前公布的自有 AI 使用开源服务条款对于伦理底线的描述程度防范类似擦枪走火危机。"
+            ],
+            "read_time_min": 6,
+            "scores": {
+                "importance": 4,
+                "credibility": 4,
+                "freshness": 4
+            },
+            "tags": [
+                "anthropic",
+                "policy",
+                "defense",
+                "safety"
+            ],
+            "notes": ""
+        },
+        {
+            "id": "mc-search-multimodal-agentic-search",
+            "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Chains",
+            "subtitle": "最新被收录的前沿论文：基于结构化思维推理链重塑大幅提升多模态检索代理精度测评基准",
+            "url": "https://arxiv.org/abs/2603.01123",
+            "source": "arXiv (cs.CL)",
+            "date": "2026-03-24",
+            "section": "Research",
+            "one_liner": "引入多跳图像理解交错纠正逻辑，大幅抑制开放网页探究场景中的大模型失忆与虚实幻觉断层。",
+            "bullets": [
+                "近期被代表机器学习最高水准评判殿堂之一的 ICLR 2026 收录验证发表认可前沿突破。",
+                "在横跨文本与图像杂陈错乱堆叠网页的数据检索挑战中部署了环环相扣自我质询反省结构设计。",
+                "首次建立了专属针对带图广袤非标准化互联网冲浪行为模式客观精度新纪元指标测评库(MC-Search)。",
+                "突破性实证论证并缓解了伴随着查询时间延长而常伴而出的注意力游离机制偏差问题。"
+            ],
+            "why_it_matters": "攻坚大模型作为网页漫游者在跨越极长时序后产生的幻觉失效盲区是商用落地最后的拦路虎之一。论文提出的一系列补偿结构为之后开发独立搜图与比对决策型代理注入了最急需的数学和框架级定身符。",
+            "action_items": [
+                "阅读论文细节探讨如何在电商等图文搜索推荐后台植入长思维链以捕捉难以言喻的暗网隐秘趋势连接。",
+                "结合论文最新代码仓库对现有客服质检 Agent 进行精度对比对照组实测。"
+            ],
+            "read_time_min": 5,
             "scores": {
                 "importance": 4,
                 "credibility": 5,
                 "freshness": 4
             },
             "tags": [
-                "safety",
-                "report",
-                "regulation",
-                "workplace",
-                "automation-bias"
+                "arxiv",
+                "research",
+                "multimodal",
+                "agentic-search"
             ],
-            "notes": ""
+            "notes": "论文侧重于方法论革新，底层需配合类似Gemini最新代等视觉系原生态闭源模型"
         },
         {
-            "id": "gpt52-physics-discovery",
-            "title": "GPT-5.2 Derives New Result in Theoretical Physics",
-            "subtitle": "GPT-5.2 在理论物理领域推导出新结果",
-            "url": "https://openai.com/research/gpt-5-2-physics",
-            "source": "OpenAI",
-            "date": "2026-02-13",
-            "section": "Research",
-            "one_liner": "GPT-5.2 推导出理论物理新结果",
+            "id": "hugging-face-spring-2026-report",
+            "title": "Hugging Face Reports 11 Million Users in Spring 2026 Ecosystem Update",
+            "subtitle": "开源中枢枢纽 Hugging Face 二零二六春季生态报告：核心用户数成功破壁跃升超一千一百万",
+            "url": "https://huggingface.co/blog/state-of-open-source-2026",
+            "source": "Hugging Face",
+            "date": "2026-03-19",
+            "section": "OpenSource",
+            "one_liner": "全面繁荣的指数曲线印证着全球化无边界模型和微调数据开源互惠集市依旧未见增量放缓巅峰颓势。",
             "bullets": [
-                "自主推导出此前未知的理论物理结果",
-                "经专家评审确认结论有效",
-                "展示 LLM 在科学发现中的潜力",
-                "引发 AI 辅助科研的伦理讨论"
+                "全站可下载与引度的各类别模型仓库资源池存量彻底性冲破二百万超级大关节点上限口。",
+                "支撑人工智能训练重工业时代石油补给生命线的开源数据训练集池量已越过五十万独立项目册。",
+                "展示出令人瞠目结舌的几何式翻番：单年内（整个2025至此阶段）新用户及全栈公有数字资产沉淀规模实现了同比100%硬核倍增率大盘。",
+                "凸显平民化大众极客阶层携手构建微缩专门用途(SLM)低参集群应对垄断强权抱团取暖共进的热潮走向狂热。"
             ],
-            "why_it_matters": "LLM 从「回答问题」走向「发现知识」，如果可以持续复现，将根本改变科研范式和 AI 的角色定位。",
+            "why_it_matters": "开放开源的力量不仅仅维系着中小型创新企业的生机活力底仓。当超巨型科技航母互相砌墙防腐建封闭生态大院门，Hugging Face 的极速井喷是民间最直接的技术平权投票反馈，保障了整体科技发展长周期内的安全阀门活力池底座不坍塌断流。",
             "action_items": [
-                "关注论文全文和同行评议结果",
-                "探索 LLM 在自己研究领域的发现潜力"
+                "增加关注或资助社区内部具有突出潜质表现的新锐垂直分支数据集整合先锋开源组织者。",
+                "鼓励内研人员将沉淀去密脱敏技术废案组件资产转为 Hugging Face 源发布换取技术市场关注红利曝光度背书影响力品牌宣发资产。"
             ],
-            "read_time_min": 8,
+            "read_time_min": 3,
             "scores": {
-                "importance": 5,
-                "credibility": 4,
-                "freshness": 5
+                "importance": 3,
+                "credibility": 5,
+                "freshness": 3
             },
             "tags": [
-                "openai",
-                "gpt-5",
-                "physics",
-                "research",
-                "scientific-discovery"
+                "hugging-face",
+                "open-source",
+                "ecosystem"
             ],
-            "notes": "需等待同行评议的最终确认"
+            "notes": "建议对比往年同维度增长率细看增量来源地"
         }
     ],
     "sections": [
         {
-            "name": "Models",
+            "name": "Industry",
             "items": [
                 {
-                    "ref_id": "openai-gpt53-codex-spark",
-                    "title": "GPT-5.3-Codex-Spark",
-                    "url": "https://openai.com/index/gpt-5-3-codex-spark",
-                    "source": "OpenAI",
-                    "date": "2026-02-12",
-                    "one_liner": "GPT-5.3-Codex-Spark：超快编码模型，首次脱离 NVIDIA",
+                    "ref_id": "openai-110b-funding-aws",
+                    "title": "OpenAI Secures $110 Billion Funding Round Led by Amazon and Nvidia",
+                    "url": "https://www.mean.ceo/openai-110b-funding-aws",
+                    "source": "mean.ceo",
+                    "date": "2026-03-25",
+                    "one_liner": "OpenAI 完成创纪录的1100亿美元私募融资并深化与AWS算力合作。",
                     "scores": {
                         "importance": 5,
-                        "credibility": 5,
+                        "credibility": 4,
                         "freshness": 5
                     },
                     "tags": [
                         "openai",
-                        "coding"
+                        "funding",
+                        "aws",
+                        "nvidia"
                     ]
                 },
                 {
-                    "ref_id": "anthropic-claude-opus-46",
-                    "title": "Claude Opus 4.6",
-                    "url": "https://anthropic.com/news/claude-opus-4-6",
-                    "source": "Anthropic",
-                    "date": "2026-02-05",
-                    "one_liner": "Claude Opus 4.6：百万 token 上下文 + Agent 协作",
-                    "scores": {
-                        "importance": 5,
-                        "credibility": 5,
-                        "freshness": 4
-                    },
-                    "tags": [
-                        "anthropic",
-                        "claude"
-                    ]
-                },
-                {
-                    "ref_id": "google-gemini3-deep-think",
-                    "title": "Gemini 3 Deep Think",
-                    "url": "https://deepmind.google/technologies/gemini-3-deep-think",
-                    "source": "Google DeepMind",
-                    "date": "2026-02-12",
-                    "one_liner": "Gemini 3 Deep Think 攻克科学推理前沿",
-                    "scores": {
-                        "importance": 5,
-                        "credibility": 5,
-                        "freshness": 5
-                    },
-                    "tags": [
-                        "google",
-                        "gemini"
-                    ]
-                },
-                {
-                    "ref_id": "alibaba-qwen3-max-thinking",
-                    "title": "Qwen3-Max-Thinking",
-                    "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
-                    "source": "Alibaba Cloud",
-                    "date": "2026-02-03",
-                    "one_liner": "Qwen3-Max-Thinking：万亿参数推理大模型",
+                    "ref_id": "ami-labs-seed-round",
+                    "title": "Yann LeCun's AMI Labs Closes Europe's Largest Seed Round at $1.03 Billion",
+                    "url": "https://medium.com/@ai-news/ami-labs-billion-dollar-seed-round",
+                    "source": "Medium",
+                    "date": "2026-03-24",
+                    "one_liner": "估值高达 35 亿美元的初创公司横空出世，致力于彻底终结自回归语言模型神话并构建“真正”基于现实物理的AI。",
                     "scores": {
                         "importance": 4,
                         "credibility": 4,
                         "freshness": 4
                     },
                     "tags": [
-                        "alibaba",
-                        "qwen"
+                        "ami-labs",
+                        "funding",
+                        "world-models",
+                        "yann-lecun"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Models",
+            "items": [
+                {
+                    "ref_id": "openai-sora-shutdown",
+                    "title": "OpenAI Discontinues Sora Text-to-Video Tool Amid Strategic Pivot",
+                    "url": "https://www.latimes.com/business/openai-sora-shutdown-funding",
+                    "source": "LA Times",
+                    "date": "2026-03-24",
+                    "one_liner": "受高昂推理成本和合规压力影响，OpenAI 全线关停生成式视频工具 Sora。",
+                    "scores": {
+                        "importance": 5,
+                        "credibility": 5,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "openai",
+                        "sora",
+                        "video-generation",
+                        "pivot"
                     ]
                 },
                 {
-                    "ref_id": "openai-retires-legacy-models",
-                    "title": "OpenAI 下线旧模型",
-                    "url": "https://openai.com/index/model-updates-feb-2026",
-                    "source": "OpenAI",
-                    "date": "2026-02-13",
-                    "one_liner": "GPT-4o/4.1/o4-mini 从 ChatGPT 下线",
+                    "ref_id": "deepmind-gemini-3-dark-web",
+                    "title": "Google DeepMind Rolls Out Gemini 3 Series and Dark Web Intelligence",
+                    "url": "https://www.theregister.com/2026/03/12/google_gemini_3_dark_web",
+                    "source": "The Register",
+                    "date": "2026-03-23",
+                    "one_liner": "Gemini 3 带来原生多模态推理升级，并重磅切入网络安全防御市场。",
                     "scores": {
                         "importance": 4,
                         "credibility": 5,
                         "freshness": 5
                     },
                     "tags": [
-                        "openai",
-                        "migration"
+                        "google",
+                        "gemini-3",
+                        "cybersecurity",
+                        "multimodal"
                     ]
                 }
             ]
@@ -591,59 +575,85 @@
             "name": "Agents",
             "items": [
                 {
-                    "ref_id": "openai-frontier-platform",
-                    "title": "OpenAI Frontier 企业 Agent 平台",
-                    "url": "https://openai.com/index/frontier-platform",
-                    "source": "OpenAI",
-                    "date": "2026-02-11",
-                    "one_liner": "OpenAI Frontier：企业级 Agent 部署平台上线",
+                    "ref_id": "anthropic-claude-computer-use",
+                    "title": "Anthropic Introduces Computer Use and Auto Mode for Claude",
+                    "url": "https://siliconangle.com/2026/03/05/anthropic-claude-computer-use-auto-mode",
+                    "source": "SiliconANGLE",
+                    "date": "2026-03-20",
+                    "one_liner": "Claude 代理现可自动化跨越多个系统级应用执行电脑屏幕任务。",
                     "scores": {
                         "importance": 5,
                         "credibility": 5,
-                        "freshness": 5
-                    },
-                    "tags": [
-                        "openai",
-                        "agents"
-                    ]
-                },
-                {
-                    "ref_id": "moonshot-kimi-k25",
-                    "title": "Kimi K2.5 Agent Swarm",
-                    "url": "https://kimi.moonshot.cn/blog/k2-5",
-                    "source": "Moonshot AI",
-                    "date": "2026-01-27",
-                    "one_liner": "Kimi K2.5：100 子 Agent 并行编排",
-                    "scores": {
-                        "importance": 5,
-                        "credibility": 4,
                         "freshness": 4
                     },
                     "tags": [
-                        "moonshot",
-                        "agents"
+                        "anthropic",
+                        "claude",
+                        "agent",
+                        "computer-use"
+                    ]
+                },
+                {
+                    "ref_id": "jetbrains-koog-for-java",
+                    "title": "JetBrains Launches Koog for Java Enterprise AI Agent Framework",
+                    "url": "https://www.jetbrains.com/news/koog-for-java-release/",
+                    "source": "JetBrains",
+                    "date": "2026-03-17",
+                    "one_liner": "赋能保守的非 Python 后台资产快速平替嵌入高并发智能体服务体系。",
+                    "scores": {
+                        "importance": 3,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "jetbrains",
+                        "java",
+                        "agent-framework",
+                        "enterprise"
+                    ]
+                },
+                {
+                    "ref_id": "microsoft-agent-framework-rc",
+                    "title": "Microsoft Agent Framework Reaches Release Candidate Status",
+                    "url": "https://www.microsoft.com/en-us/developer/news/agent-framework-rc/",
+                    "source": "Microsoft",
+                    "date": "2026-03-16",
+                    "one_liner": "基于吸取 Semantic Kernel 先进经验，此开源巨舰剑指通用智能业务底座霸主地位。",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 2
+                    },
+                    "tags": [
+                        "microsoft",
+                        "agent-framework",
+                        ".net",
+                        "python"
                     ]
                 }
             ]
         },
         {
-            "name": "Multimodal",
+            "name": "Systems",
             "items": [
                 {
-                    "ref_id": "moonshot-kimi-k25",
-                    "title": "Kimi K2.5 多模态",
-                    "url": "https://kimi.moonshot.cn/blog/k2-5",
-                    "source": "Moonshot AI",
-                    "date": "2026-01-27",
-                    "one_liner": "万亿参数多模态：文本+图像+视频原生处理",
+                    "ref_id": "nvidia-vera-rubin-groq-3",
+                    "title": "NVIDIA Unveils Vera Rubin Platform and Groq 3 LPX Inference Accelerator",
+                    "url": "https://www.nvidia.com/en-us/newsroom/press-releases/2026/nvidia-vera-rubin-platform/",
+                    "source": "NVIDIA",
+                    "date": "2026-03-18",
+                    "one_liner": "英伟达 GTC 2026 发布专为 AI 代理(Agent)打造的划时代低延迟推理架构。",
                     "scores": {
                         "importance": 5,
-                        "credibility": 4,
-                        "freshness": 4
+                        "credibility": 5,
+                        "freshness": 3
                     },
                     "tags": [
-                        "moonshot",
-                        "multimodal"
+                        "nvidia",
+                        "hardware",
+                        "inference",
+                        "groq",
+                        "rubin"
                     ]
                 }
             ]
@@ -652,115 +662,40 @@
             "name": "OpenSource",
             "items": [
                 {
-                    "ref_id": "nvidia-nemotron3-nano",
-                    "title": "Nemotron 3 Nano (32B MoE)",
-                    "url": "https://developer.nvidia.com/blog/nemotron-3-nano",
-                    "source": "NVIDIA",
-                    "date": "2026-02-07",
-                    "one_liner": "Nemotron 3 Nano：32B MoE + 百万 token 开源",
-                    "scores": {
-                        "importance": 4,
-                        "credibility": 5,
-                        "freshness": 4
-                    },
-                    "tags": [
-                        "nvidia",
-                        "open-source"
-                    ]
-                },
-                {
-                    "ref_id": "alibaba-qwen3-max-thinking",
-                    "title": "Qwen3-Max-Thinking",
-                    "url": "https://qwenlm.github.io/blog/qwen3-max-thinking",
-                    "source": "Alibaba Cloud",
-                    "date": "2026-02-03",
-                    "one_liner": "万亿参数推理模型，开源可用",
+                    "ref_id": "meta-llama-4-updates",
+                    "title": "Meta AI Continues LLaMA 4 Dominance While Teasing Next-Gen Llama 4.5",
+                    "url": "https://seekingalpha.com/article/meta-ai-llama-4-5-teaser",
+                    "source": "Seeking Alpha",
+                    "date": "2026-03-21",
+                    "one_liner": "Meta 多模态 MoE 架构的 LLaMA 4 仍处垄断地位，后续将孵化商业闭源侧支。",
                     "scores": {
                         "importance": 4,
                         "credibility": 4,
                         "freshness": 4
                     },
                     "tags": [
-                        "alibaba",
-                        "open-source"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Safety",
-            "items": [
-                {
-                    "ref_id": "openai-disbands-alignment-team",
-                    "title": "OpenAI 解散对齐团队",
-                    "url": "https://platformer.news/openai-alignment-team-disbanded",
-                    "source": "Platformer",
-                    "date": "2026-02-11",
-                    "one_liner": "OpenAI 解散 Mission Alignment 团队",
-                    "scores": {
-                        "importance": 5,
-                        "credibility": 4,
-                        "freshness": 5
-                    },
-                    "tags": [
-                        "openai",
-                        "safety"
+                        "meta",
+                        "llama-4",
+                        "open-source",
+                        "moe"
                     ]
                 },
                 {
-                    "ref_id": "intl-ai-safety-report-2026",
-                    "title": "国际 AI 安全报告 2026",
-                    "url": "https://www.thesafetymag.com/us/topics/ai-safety-report-2026",
-                    "source": "Int'l Report",
-                    "date": "2026-02-10",
-                    "one_liner": "前沿 AI 带来自动化偏见和恶意使用风险",
+                    "ref_id": "hugging-face-spring-2026-report",
+                    "title": "Hugging Face Reports 11 Million Users in Spring 2026 Ecosystem Update",
+                    "url": "https://huggingface.co/blog/state-of-open-source-2026",
+                    "source": "Hugging Face",
+                    "date": "2026-03-19",
+                    "one_liner": "全面繁荣的指数曲线印证着全球化无边界模型和微调数据开源互惠集市依旧未见增量放缓巅峰颓势。",
                     "scores": {
-                        "importance": 4,
+                        "importance": 3,
                         "credibility": 5,
-                        "freshness": 4
+                        "freshness": 3
                     },
                     "tags": [
-                        "safety",
-                        "regulation"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Industry",
-            "items": [
-                {
-                    "ref_id": "anthropic-30b-funding",
-                    "title": "Anthropic $30B 融资",
-                    "url": "https://anthropic.com/news/series-g",
-                    "source": "Anthropic",
-                    "date": "2026-02-12",
-                    "one_liner": "300 亿美元 Series G，估值 3800 亿",
-                    "scores": {
-                        "importance": 5,
-                        "credibility": 5,
-                        "freshness": 5
-                    },
-                    "tags": [
-                        "anthropic",
-                        "funding"
-                    ]
-                },
-                {
-                    "ref_id": "february-model-rush",
-                    "title": "February Model Rush",
-                    "url": "https://jangwook.net/2026/02/model-rush",
-                    "source": "AI Analysis",
-                    "date": "2026-02-10",
-                    "one_liner": "中美巨头 2 月集中发布新模型",
-                    "scores": {
-                        "importance": 4,
-                        "credibility": 3,
-                        "freshness": 5
-                    },
-                    "tags": [
-                        "industry",
-                        "competition"
+                        "hugging-face",
+                        "open-source",
+                        "ecosystem"
                     ]
                 }
             ]
@@ -769,21 +704,60 @@
             "name": "Policy",
             "items": [
                 {
-                    "ref_id": "openai-accuses-deepseek",
-                    "title": "OpenAI 指控 DeepSeek 蒸馏窃取",
-                    "url": "https://www.latimes.com/business/story/2026-02-12/openai-deepseek-ip-theft",
-                    "source": "LA Times",
-                    "date": "2026-02-12",
-                    "one_liner": "模型蒸馏的知识产权争议首次公开化",
+                    "ref_id": "us-white-house-ai-policy-framework",
+                    "title": "White House Releases National Policy Framework for Artificial Intelligence",
+                    "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260320-white-house-ai-policy-framework",
+                    "source": "WilmerHale",
+                    "date": "2026-03-20",
+                    "one_liner": "白宫公布最新法案雏形重点防范深伪干涉及保护未成年人隐私数据。",
                     "scores": {
                         "importance": 5,
-                        "credibility": 4,
-                        "freshness": 5
+                        "credibility": 5,
+                        "freshness": 3
                     },
                     "tags": [
-                        "openai",
-                        "deepseek",
-                        "policy"
+                        "policy",
+                        "white-house",
+                        "safety",
+                        "regulation"
+                    ]
+                },
+                {
+                    "ref_id": "eu-parliament-postpones-ai-rules",
+                    "title": "EU Parliament Postpones Activation of High-Risk AI System Rules to 2027",
+                    "url": "https://europa.eu/newsroom/eu-parliament-postpones-high-risk-ai-rules-2027",
+                    "source": "Europa",
+                    "date": "2026-03-18",
+                    "one_liner": "因标准配套细分方案未能敲定，欧盟放宽悬在科技企业上的最严厉监管实施期。",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 3
+                    },
+                    "tags": [
+                        "eu",
+                        "ai-act",
+                        "policy",
+                        "regulation"
+                    ]
+                },
+                {
+                    "ref_id": "pentagon-designates-anthropic-supply-chain-risk",
+                    "title": "Pentagon Designates Anthropic as Supply Chain Risk Over Autonomous Weapons Policy",
+                    "url": "https://www.americancommunitymedia.org/pentagon-anthropic-supply-chain-risk/",
+                    "source": "American Community Media",
+                    "date": "2026-03-22",
+                    "one_liner": "因执意贯彻产品禁用条款，顶级大模型公司与美方军事需求产生尖锐正面司法对抗破裂。",
+                    "scores": {
+                        "importance": 4,
+                        "credibility": 4,
+                        "freshness": 4
+                    },
+                    "tags": [
+                        "anthropic",
+                        "policy",
+                        "defense",
+                        "safety"
                     ]
                 }
             ]
@@ -792,20 +766,22 @@
             "name": "Research",
             "items": [
                 {
-                    "ref_id": "gpt52-physics-discovery",
-                    "title": "GPT-5.2 物理学新发现",
-                    "url": "https://openai.com/research/gpt-5-2-physics",
-                    "source": "OpenAI",
-                    "date": "2026-02-13",
-                    "one_liner": "GPT-5.2 推导出理论物理新结果",
+                    "ref_id": "mc-search-multimodal-agentic-search",
+                    "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Chains",
+                    "url": "https://arxiv.org/abs/2603.01123",
+                    "source": "arXiv (cs.CL)",
+                    "date": "2026-03-24",
+                    "one_liner": "引入多跳图像理解交错纠正逻辑，大幅抑制开放网页探究场景中的大模型失忆与虚实幻觉断层。",
                     "scores": {
-                        "importance": 5,
-                        "credibility": 4,
-                        "freshness": 5
+                        "importance": 4,
+                        "credibility": 5,
+                        "freshness": 4
                     },
                     "tags": [
-                        "openai",
-                        "research"
+                        "arxiv",
+                        "research",
+                        "multimodal",
+                        "agentic-search"
                     ]
                 }
             ]
@@ -813,221 +789,241 @@
     ],
     "tag_index": {
         "openai": [
-            "openai-gpt53-codex-spark",
-            "openai-retires-legacy-models",
-            "openai-frontier-platform",
-            "openai-disbands-alignment-team",
-            "openai-accuses-deepseek",
-            "gpt52-physics-discovery"
-        ],
-        "coding": [
-            "openai-gpt53-codex-spark"
-        ],
-        "gpt-5": [
-            "openai-gpt53-codex-spark",
-            "openai-retires-legacy-models",
-            "gpt52-physics-discovery"
-        ],
-        "cerebras": [
-            "openai-gpt53-codex-spark"
-        ],
-        "anthropic": [
-            "anthropic-claude-opus-46",
-            "anthropic-30b-funding"
-        ],
-        "claude": [
-            "anthropic-claude-opus-46"
-        ],
-        "long-context": [
-            "anthropic-claude-opus-46",
-            "nvidia-nemotron3-nano"
-        ],
-        "agents": [
-            "anthropic-claude-opus-46",
-            "openai-frontier-platform",
-            "moonshot-kimi-k25"
-        ],
-        "google": [
-            "google-gemini3-deep-think"
-        ],
-        "gemini": [
-            "google-gemini3-deep-think"
-        ],
-        "reasoning": [
-            "google-gemini3-deep-think",
-            "alibaba-qwen3-max-thinking"
-        ],
-        "science": [
-            "google-gemini3-deep-think",
-            "gpt52-physics-discovery"
-        ],
-        "moonshot": [
-            "moonshot-kimi-k25"
-        ],
-        "multimodal": [
-            "moonshot-kimi-k25"
-        ],
-        "moe": [
-            "moonshot-kimi-k25",
-            "nvidia-nemotron3-nano"
-        ],
-        "chinese-ai": [
-            "moonshot-kimi-k25",
-            "alibaba-qwen3-max-thinking",
-            "february-model-rush"
-        ],
-        "alibaba": [
-            "alibaba-qwen3-max-thinking"
-        ],
-        "qwen": [
-            "alibaba-qwen3-max-thinking"
-        ],
-        "open-source": [
-            "alibaba-qwen3-max-thinking",
-            "nvidia-nemotron3-nano"
-        ],
-        "nvidia": [
-            "nvidia-nemotron3-nano"
-        ],
-        "safety": [
-            "openai-disbands-alignment-team",
-            "intl-ai-safety-report-2026"
-        ],
-        "policy": [
-            "openai-accuses-deepseek"
-        ],
-        "deepseek": [
-            "openai-accuses-deepseek"
-        ],
-        "distillation": [
-            "openai-accuses-deepseek"
+            "openai-110b-funding-aws",
+            "openai-sora-shutdown"
         ],
         "funding": [
-            "anthropic-30b-funding"
+            "openai-110b-funding-aws",
+            "ami-labs-seed-round"
         ],
-        "industry": [
-            "anthropic-30b-funding",
-            "february-model-rush"
+        "aws": [
+            "openai-110b-funding-aws"
         ],
-        "enterprise": [
-            "openai-frontier-platform"
+        "nvidia": [
+            "openai-110b-funding-aws",
+            "nvidia-vera-rubin-groq-3"
         ],
-        "research": [
-            "gpt52-physics-discovery"
+        "sora": [
+            "openai-sora-shutdown"
+        ],
+        "video-generation": [
+            "openai-sora-shutdown"
+        ],
+        "pivot": [
+            "openai-sora-shutdown"
+        ],
+        "anthropic": [
+            "anthropic-claude-computer-use",
+            "pentagon-designates-anthropic-supply-chain-risk"
+        ],
+        "claude": [
+            "anthropic-claude-computer-use"
+        ],
+        "agent": [
+            "anthropic-claude-computer-use"
+        ],
+        "computer-use": [
+            "anthropic-claude-computer-use"
+        ],
+        "google": [
+            "deepmind-gemini-3-dark-web"
+        ],
+        "gemini-3": [
+            "deepmind-gemini-3-dark-web"
+        ],
+        "cybersecurity": [
+            "deepmind-gemini-3-dark-web"
+        ],
+        "multimodal": [
+            "deepmind-gemini-3-dark-web",
+            "mc-search-multimodal-agentic-search"
+        ],
+        "hardware": [
+            "nvidia-vera-rubin-groq-3"
+        ],
+        "inference": [
+            "nvidia-vera-rubin-groq-3"
+        ],
+        "groq": [
+            "nvidia-vera-rubin-groq-3"
+        ],
+        "rubin": [
+            "nvidia-vera-rubin-groq-3"
+        ],
+        "meta": [
+            "meta-llama-4-updates"
+        ],
+        "llama-4": [
+            "meta-llama-4-updates"
+        ],
+        "open-source": [
+            "meta-llama-4-updates",
+            "hugging-face-spring-2026-report"
+        ],
+        "moe": [
+            "meta-llama-4-updates"
+        ],
+        "ami-labs": [
+            "ami-labs-seed-round"
+        ],
+        "world-models": [
+            "ami-labs-seed-round"
+        ],
+        "yann-lecun": [
+            "ami-labs-seed-round"
+        ],
+        "policy": [
+            "us-white-house-ai-policy-framework",
+            "eu-parliament-postpones-ai-rules",
+            "pentagon-designates-anthropic-supply-chain-risk"
+        ],
+        "white-house": [
+            "us-white-house-ai-policy-framework"
+        ],
+        "safety": [
+            "us-white-house-ai-policy-framework",
+            "pentagon-designates-anthropic-supply-chain-risk"
         ],
         "regulation": [
-            "intl-ai-safety-report-2026"
+            "us-white-house-ai-policy-framework",
+            "eu-parliament-postpones-ai-rules"
         ],
-        "migration": [
-            "openai-retires-legacy-models"
+        "eu": [
+            "eu-parliament-postpones-ai-rules"
+        ],
+        "ai-act": [
+            "eu-parliament-postpones-ai-rules"
+        ],
+        "jetbrains": [
+            "jetbrains-koog-for-java"
+        ],
+        "java": [
+            "jetbrains-koog-for-java"
+        ],
+        "agent-framework": [
+            "jetbrains-koog-for-java",
+            "microsoft-agent-framework-rc"
+        ],
+        "enterprise": [
+            "jetbrains-koog-for-java"
+        ],
+        "microsoft": [
+            "microsoft-agent-framework-rc"
+        ],
+        ".net": [
+            "microsoft-agent-framework-rc"
+        ],
+        "python": [
+            "microsoft-agent-framework-rc"
+        ],
+        "defense": [
+            "pentagon-designates-anthropic-supply-chain-risk"
+        ],
+        "arxiv": [
+            "mc-search-multimodal-agentic-search"
+        ],
+        "research": [
+            "mc-search-multimodal-agentic-search"
+        ],
+        "agentic-search": [
+            "mc-search-multimodal-agentic-search"
+        ],
+        "hugging-face": [
+            "hugging-face-spring-2026-report"
+        ],
+        "ecosystem": [
+            "hugging-face-spring-2026-report"
         ]
     },
     "search_summaries": [
         {
-            "query_hint": "openai gpt",
+            "query_hint": "OpenAI funding and strat",
             "matching_tags": [
                 "openai",
-                "gpt-5",
-                "coding",
-                "cerebras"
+                "funding",
+                "aws",
+                "sora"
             ],
             "top_refs": [
-                "openai-gpt53-codex-spark",
-                "openai-retires-legacy-models",
-                "gpt52-physics-discovery"
+                "openai-110b-funding-aws",
+                "openai-sora-shutdown"
             ],
-            "one_sentence_map": "OpenAI 动态：Codex-Spark 跑 Cerebras、旧模型下线、GPT-5.2 物理发现"
+            "one_sentence_map": "OpenAI 凭借 1100 亿美元惊天融资构筑壁垒，同时因巨额耗费壮士断腕关停耗资黑洞级产品 Sora。"
         },
         {
-            "query_hint": "agent 智能体",
+            "query_hint": "Anthropic Agent Computer Use",
             "matching_tags": [
-                "agents",
-                "enterprise",
-                "platform"
+                "anthropic",
+                "claude",
+                "agent",
+                "computer-use"
             ],
             "top_refs": [
-                "openai-frontier-platform",
-                "anthropic-claude-opus-46",
-                "moonshot-kimi-k25"
+                "anthropic-claude-computer-use"
             ],
-            "one_sentence_map": "Agent 进展：OpenAI Frontier 企业平台 + Claude Agent Teams + Kimi Agent Swarm"
+            "one_sentence_map": "Anthropic 震撼首推系统级 Agent 自动化操作控制特性，迈出取代鼠标键盘实体操作性界面的重兵出击之步。"
         },
         {
-            "query_hint": "安全 对齐 safety",
+            "query_hint": "AI hardware inference Groq Rubin",
             "matching_tags": [
-                "safety",
-                "alignment",
-                "governance",
-                "regulation"
-            ],
-            "top_refs": [
-                "openai-disbands-alignment-team",
-                "intl-ai-safety-report-2026"
-            ],
-            "one_sentence_map": "安全动态：OpenAI 解散对齐团队 + 国际安全报告警告自动化偏见"
-        },
-        {
-            "query_hint": "开源 open source",
-            "matching_tags": [
-                "open-source",
                 "nvidia",
-                "alibaba",
-                "moe"
+                "hardware",
+                "inference",
+                "groq",
+                "rubin"
             ],
             "top_refs": [
-                "nvidia-nemotron3-nano",
-                "alibaba-qwen3-max-thinking"
+                "nvidia-vera-rubin-groq-3"
             ],
-            "one_sentence_map": "开源：Nemotron 3 Nano（32B MoE + 1M ctx）+ Qwen3-Max-Thinking（万亿参）"
+            "one_sentence_map": "英伟达为统领智能代理实时计算需求痛点，携 Groq 加速重构芯片全线架构打造超低维推流延迟运算力怪兽平台 Rubin。"
         },
         {
-            "query_hint": "中国 AI chinese",
+            "query_hint": "AI policy risk safety",
             "matching_tags": [
-                "chinese-ai",
-                "moonshot",
-                "alibaba",
-                "deepseek"
+                "policy",
+                "regulation",
+                "eu",
+                "safety"
             ],
             "top_refs": [
-                "moonshot-kimi-k25",
-                "alibaba-qwen3-max-thinking",
-                "openai-accuses-deepseek"
+                "us-white-house-ai-policy-framework",
+                "eu-parliament-postpones-ai-rules",
+                "pentagon-designates-anthropic-supply-chain-risk"
             ],
-            "one_sentence_map": "中国 AI：Kimi K2.5 万亿参 + Qwen3 推理 + DeepSeek 蒸馏争议"
+            "one_sentence_map": "欧美地缘监管风暴拉扯白热化：白宫以防微杜渐收拢各立监管权限防深伪侵袭，欧盟遇难避雷妥协标准落地门槛，而军用杀戮底线测试揭开防卫政治角力与硅谷正义伦理新战事。"
         },
         {
-            "query_hint": "reasoning 推理",
+            "query_hint": "Agent development frameworks",
             "matching_tags": [
-                "reasoning",
-                "science",
-                "benchmark"
+                "microsoft",
+                "jetbrains",
+                "agent-framework"
             ],
             "top_refs": [
-                "google-gemini3-deep-think",
-                "alibaba-qwen3-max-thinking",
-                "gpt52-physics-discovery"
+                "microsoft-agent-framework-rc",
+                "jetbrains-koog-for-java"
             ],
-            "one_sentence_map": "推理：Gemini 3 HLE 48.4%、Qwen3 万亿参推理、GPT-5.2 物理发现"
+            "one_sentence_map": "传统商业开发大院迎来革新重工业大革命浪潮：Java 与 .NET 大系原厂钦定统建开发中间基础设施，终结 Python 工具野蛮独裁垄断。"
         }
     ],
     "duplicates": [
         {
-            "title": "GPT-5.3 Codex Spark: OpenAI's New Fast Coding AI (TechCrunch)",
-            "url": "https://techcrunch.com/2026/02/12/gpt-5-3-codex-spark",
-            "merged_into": "openai-gpt53-codex-spark",
-            "reason": "二手报道，信息量少于 OpenAI 官方博客"
+            "title": "Anthropic reveals legal dispute after Pentagon labels it a 'supply chain risk'",
+            "url": "https://www.americancommunitymedia.org/pentagon-anthropic-supply-chain-risk/",
+            "merged_into": "pentagon-designates-anthropic-supply-chain-risk",
+            "reason": "内容完全重合并聚焦于五角大楼将 Anthropic 列入风险名单事件之追踪性报道。"
         },
         {
-            "title": "Anthropic 完成 300 亿美元融资（机器之心）",
-            "url": "https://jiqizhixin.com/articles/anthropic-30b",
-            "merged_into": "anthropic-30b-funding",
-            "reason": "中文转载，无新增分析"
+            "title": "OpenAI announces $110 billion funding super round with Amazon Web Services",
+            "url": "https://www.mean.ceo/openai-110b-funding-round",
+            "merged_into": "openai-110b-funding-aws",
+            "reason": "涉及极高度覆盖面及事件源均指向同期发布之历史性融资协议声明。"
         },
         {
-            "title": "OpenAI Points Finger at DeepSeek (Reuters)",
-            "url": "https://www.reuters.com/technology/openai-deepseek-distillation",
-            "merged_into": "openai-accuses-deepseek",
-            "reason": "同一事件的重复报道，LA Times 版本更详细"
+            "title": "Meta teasing next-gen Avocado model might be delayed",
+            "url": "https://digitimes.com/meta-llama-next-model-delayed",
+            "merged_into": "meta-llama-4-updates",
+            "reason": "属于模型迭代整体线索中针对新版本发布时间点的碎片化线人消息爆料合并汇总。"
         }
     ]
 }

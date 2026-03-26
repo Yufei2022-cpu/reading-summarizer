@@ -26,6 +26,9 @@
     const searchResults = $("#search-results");
     const searchInner = $(".search-results-inner");
     const themeToggle = $("#theme-toggle");
+    const exportPdfBtn = $("#export-pdf-btn");
+    const sideNav = $("#side-nav");
+    const sideNavInner = $(".side-nav-inner");
 
     let digestData = null;
     let activeTag = "all";
@@ -39,6 +42,19 @@
         const next = current === "dark" ? "light" : "dark";
         document.documentElement.setAttribute("data-theme", next);
         localStorage.setItem("digest-theme", next);
+    });
+
+    /* ---------- Back to Top ---------- */
+    const backToTopBtn = $("#back-to-top");
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            backToTopBtn.classList.remove("hidden");
+        } else {
+            backToTopBtn.classList.add("hidden");
+        }
+    });
+    backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
     /* ---------- Keyboard shortcut ---------- */
@@ -186,7 +202,6 @@
         } catch { /* ignore */ }
     })();
 
-    /* ---------- Boot ---------- */
     function boot(data) {
         digestData = data;
         loadZone.classList.add("hidden");
@@ -196,10 +211,13 @@
         renderTopStories(data.top_stories || []);
         renderSections(data.sections || []);
         renderDuplicates(data.duplicates || []);
+        renderSideNav(data.sections || []);
         statsBar.classList.remove("hidden");
         tagBar.classList.remove("hidden");
         topStoriesSec.classList.remove("hidden");
         sectionsEl.classList.remove("hidden");
+        sideNav.classList.remove("hidden");
+        exportPdfBtn.classList.remove("hidden");
         if ((data.duplicates || []).length > 0) dupSection.classList.remove("hidden");
     }
 
@@ -220,7 +238,7 @@
             const btn = document.createElement("button");
             btn.className = "tag-chip";
             btn.dataset.tag = tag;
-            btn.textContent = tag;
+            btn.innerHTML = `<span class="active-dot"></span>${esc(tag)}`;
             btn.addEventListener("click", () => setActiveTag(tag));
             tagBarInner.appendChild(btn);
         });
@@ -231,7 +249,11 @@
     function setActiveTag(tag) {
         activeTag = tag;
         $$(".tag-chip").forEach((btn) => {
-            btn.classList.toggle("active", btn.dataset.tag === tag);
+            const isActive = btn.dataset.tag === tag;
+            btn.classList.toggle("active", isActive);
+            if (isActive) {
+                btn.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+            }
         });
         filterByTag(tag);
     }
@@ -261,7 +283,7 @@
             const card = document.createElement("article");
             card.className = "story-card";
             card.dataset.id = s.id;
-            card.style.animationDelay = `${i * 0.05}s`;
+            card.style.animationDelay = `${i * 0.04}s`;
 
             card.innerHTML = `
         <div class="card-header">
@@ -293,10 +315,9 @@
         <div class="card-tags">
           ${s.tags.map((t) => `<span class="card-tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}
         </div>
-        ${s.notes ? `<div style="font-size:0.7rem;color:var(--text-3);font-style:italic;">📝 ${esc(s.notes)}</div>` : ""}
+        ${s.notes ? `<div class="card-notes">📝 ${esc(s.notes)}</div>` : ""}
       `;
 
-            // Click tag to filter
             card.querySelectorAll(".card-tag").forEach((tagEl) => {
                 tagEl.addEventListener("click", () => setActiveTag(tagEl.dataset.tag));
             });
@@ -454,4 +475,121 @@
         };
         return icons[name] || "📌";
     }
+
+    /* ---------- Side Navigation ---------- */
+    function renderSideNav(sections) {
+        sideNavInner.innerHTML = "";
+
+        // Top stories link
+        const topBtn = document.createElement("button");
+        topBtn.className = "side-nav-item active";
+        topBtn.dataset.target = "top-stories";
+        topBtn.innerHTML = `<span class="nav-icon">🔥</span><span class="nav-label">精选头条</span>`;
+        topBtn.addEventListener("click", () => {
+            document.getElementById("top-stories").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        sideNavInner.appendChild(topBtn);
+
+        // Sections
+        sections.forEach((sec) => {
+            const btn = document.createElement("button");
+            btn.className = "side-nav-item";
+            btn.dataset.section = sec.name;
+            const icon = sectionIcon(sec.name);
+            btn.innerHTML = `<span class="nav-icon">${icon}</span><span class="nav-label">${esc(sec.name)}</span>`;
+            btn.addEventListener("click", () => {
+                const target = $$(".section-group").find(g => {
+                    const h3 = g.querySelector("h3");
+                    return h3 && h3.textContent === sec.name;
+                });
+                if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+            sideNavInner.appendChild(btn);
+        });
+
+        // Scroll spy
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    const sectionName = entry.target.dataset.sectionName;
+                    sideNavInner.querySelectorAll(".side-nav-item").forEach(item => {
+                        item.classList.remove("active");
+                        if (id === "top-stories" && item.dataset.target === "top-stories") {
+                            item.classList.add("active");
+                        } else if (sectionName && item.dataset.section === sectionName) {
+                            item.classList.add("active");
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: "-30% 0px -60% 0px" });
+
+        observer.observe(document.getElementById("top-stories"));
+        $$(".section-group").forEach(g => {
+            const h3 = g.querySelector("h3");
+            if (h3) {
+                g.dataset.sectionName = h3.textContent;
+                observer.observe(g);
+            }
+        });
+    }
+
+    /* ---------- PDF Export ---------- */
+    exportPdfBtn.addEventListener("click", async () => {
+        if (!digestData) return;
+        exportPdfBtn.classList.add("generating");
+
+        // Build report HTML
+        const container = document.createElement("div");
+        container.className = "pdf-report";
+
+        const stories = digestData.top_stories || [];
+        const date = digestData.generated_at || "unknown";
+        const statsInfo = digestData.stats || {};
+
+        container.innerHTML = `
+            <h1>⚡ AI Frontier Weekly Digest</h1>
+            <div class="pdf-meta">
+                ${date} · 共扫描 ${statsInfo.items_in || "-"} 篇 · 精选 ${statsInfo.top_stories_count || stories.length} 篇 · 去重 ${statsInfo.duplicates_count || 0} 篇
+            </div>
+            ${stories.map((s, i) => `
+                <div class="pdf-story">
+                    <div class="pdf-story-header">
+                        <span class="pdf-story-title">${i + 1}. ${esc(s.title)}</span>
+                        <span class="pdf-story-badge">${esc(s.section)}</span>
+                    </div>
+                    <div class="pdf-story-subtitle">${esc(s.subtitle)}</div>
+                    <div class="pdf-story-meta">${esc(s.source)} · ${esc(s.date)} · ${s.read_time_min} min read</div>
+                    <div class="pdf-story-oneliner">◆ ${esc(s.one_liner)}</div>
+                    <ul class="pdf-story-bullets">
+                        ${s.bullets.map(b => `<li>${esc(b)}</li>`).join("")}
+                    </ul>
+                    <div class="pdf-story-why">${esc(s.why_it_matters)}</div>
+                </div>
+            `).join("")}
+        `;
+
+        document.body.appendChild(container);
+
+        try {
+            const opt = {
+                margin:       [10, 12, 10, 12],
+                filename:     `AI_Digest_${date}.pdf`,
+                image:        { type: 'jpeg', quality: 0.95 },
+                html2canvas:  { scale: 2, useCORS: true },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+
+            await html2pdf().set(opt).from(container).save();
+        } catch (err) {
+            console.error("PDF generation failed:", err);
+            alert("PDF 生成失败: " + err.message);
+        } finally {
+            document.body.removeChild(container);
+            exportPdfBtn.classList.remove("generating");
+        }
+    });
+
 })();

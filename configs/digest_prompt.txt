@@ -7,7 +7,7 @@ from the last 7 calendar days, and produce a single machine-readable JSON file.
 
 ## Absolute Output Rule
 You MUST output ONLY a SINGLE valid JSON object at the end.
-No markdown fences, no commentary, no explanation—ONLY raw JSON.
+No markdown fences, no commentary, no explanation, and NO SEARCH LOGS—ONLY raw JSON starting with `{` and ending with `}`.
 
 ## Time & Window Rules (VERY IMPORTANT)
 - Timezone: Europe/Berlin.
@@ -241,4 +241,4 @@ freshness (时效性):
 4. Each top_story must appear in exactly ONE section.
 5. tag_index must reference only IDs that exist in top_stories.
 6. Generate 4–6 search_summaries covering major themes of the week.
-7. Output ONLY valid JSON. No markdown, no commentary, no explanation.
+7. Output ONLY valid JSON starting with `{`. Do NOT output any search logs, markdown fences, or conversational text before or after the JSON.

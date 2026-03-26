@@ -67,6 +67,19 @@ gad digest
 gad digest --date 2024-01-15
 ```
 
+### 🖥️ Viewing the Web UI
+
+This project includes a web frontend interface (located in the `web/` directory) to display your generated JSON digests. **Since GAD is a Python project, there is no need to install Node.js or run `npm run dev`.**
+
+1. Place your generated `digest.json` into the `web/` directory.
+2. Start the built-in Python HTTP server from the project root:
+
+```bash
+python -m http.server 8000 --directory web
+```
+
+3. Open your browser and navigate to `http://localhost:8000/` to view the digest.
+
 ## CLI Commands
 
 ### `gad ingest <url>`
@@ -229,9 +242,11 @@ Falls back to a mock summarizer that extracts:
 
 You can generate `digest.json` without the Python backend — just paste the prompt below into any **LLM with web search** (ChatGPT-4o + Search, Gemini Advanced, Perplexity Pro).
 
+> 💡 **Tip:** The prompt template is also available as a standalone file in `configs/digest_prompt.txt`. If you want to modify the search queries or rules, edit that file!
+
 ### Prompt Template
 
-> **复制下面整段 prompt，粘贴到有联网能力的 LLM 中即可。**
+> **你可以直接打开 `configs/digest_prompt.txt` 复制，或者复制下面整段 prompt，粘贴到有联网能力的 LLM 中即可。**
 
 ````text
 # AI Frontier Weekly Digest Generator
@@ -283,7 +298,7 @@ Target: 12–15 top stories.
 ## Step 3 — Generate JSON
 
 Produce a SINGLE valid JSON object. No markdown fencing, no commentary, 
-no explanation — ONLY the raw JSON.
+no explanation, and NO SEARCH LOGS — ONLY the raw JSON starting with `{`.
 
 ### Schema (v1)
 
@@ -393,7 +408,7 @@ freshness (时效性):
 4. Each top_story must appear in exactly ONE section.
 5. tag_index must reference only IDs that exist in top_stories.
 6. Generate 4-6 search_summaries covering the major themes of the week.
-7. Output ONLY valid JSON. No markdown, no conversation, no explanation.
+7. Output ONLY valid JSON starting with `{`. Do NOT output any search logs, markdown fences, or conversational text.
 ````
 ## Development
 
